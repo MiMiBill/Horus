@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#54B4EF</color>
+    <!-- ProgressDialog 背景色-->
+    <color name="progress_bar_bg_color">#77444444</color>
+
+    <color name="red">#FF0000</color>
+    <color name="red_common">#FE5E5E</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+
+    <color name="status_bar_android_21_22">#bfbefe</color>
+    <!-- 按钮 -->
+    <color name="button_disable">#D3D6DA</color>
+    <color name="button_enable">@color/blue_nomal</color>
+
+    <color name="text_light">#D3D6DA</color>
+    <color name="text_mid">#999999</color>
+    <color name="text_id">#A8ABB2</color>
+    <color name="text_mid_dark">#666666</color>
+    <color name="text_tab_nomal">#A8ABB2</color>
+    <color name="text_commend_dark">#70747C</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_b9">#b9b9b9</color>
+
+    <!-- 地区/语言选择 -->
+    <color name="first_select_text">@color/blue_nomal</color>
+    <color name="first_select_white">#FDFDFD</color>
+    <color name="first_select_divide_line">#6454B4EF</color>
+
+
+    <color name="gray_nomal">#70747C</color>
+
+    <color name="feature_go_open_start">#8F05D7</color>
+    <color name="feature_go_open_center">#A445FD</color>
+    <color name="feature_go_open_end">#B69DF8</color>
+
+
+    <color name="splash_count_down_circle">#E8E7E7</color>
+    <color name="splash_count_down_ring_start">#DA635E</color>
+    <color name="splash_count_down_ring_end">#5426D8</color>
+    <color name="splash_count_down_ring_center">#7631A8</color>
+    <!-- 注册 -->
+    <color name="register_one_text">#666666</color>
+
+    <!-- 第三方注册绑定 -->
+    <color name="bind_diamond_text">#E66683</color>
+    <color name="bind_gain_code_text">@color/blue_nomal</color>
+
+    <!-- 完善个人信息 -->
+    <color name="complete_grey_bg">#F5F5F9</color>
+    <color name="complete_head_button_stroke">#CCCCCC</color>
+
+    <!--上传头像,提示的文字的颜色-->
+    <color name="upload_avatar_tip">#999999</color>
+
+    <!-- 寻缘（匹配） -->
+    <color name="match_bg_color">#F5F5F9</color>
+    <color name="match_round_button_shadow">#11FFFFFF</color>
+    <color name="match_round_button_pressed">#FFEEEEEE</color>
+    <color name="match_succeed_bg_top">#7E40F3</color>
+    <color name="match_succeed_bg_bottom">#B43AD7</color>
+    <color name="match_succeed_chat_text">#8741F1</color>
+    <color name="match_succeed_button_border">#F0F0F0</color>
+    <color name="match_light_count">#57BB75</color>
+    <color name="match_light_count_personal_info">#A346F6</color>
+
+    <!--寻缘 卡片标签背景-->
+    <color name="match_flag_0">#91AFD9</color>
+    <color name="match_flag_1">#BE8F9F</color>
+    <color name="match_flag_2">#C18F72</color>
+    <color name="match_flag_3">#91BFA3</color>
+    <color name="match_flag_4">#D689A0</color>
+    <color name="match_flag_5">#A88A8A</color>
+
+
+    <!--寻缘(曝光)-->
+    <color name="match_super_exposure_bg_start">#4BAAF9</color>
+    <color name="match_super_exposure_bg_end">#5676E2</color>
+    <color name="match_super_exposure_end_tip_bg">#CDB2D0</color>
+
+    <color name="match_super_exposure_process_bg">#CCCCCC</color>
+    <color name="match_super_exposure_process_start">#D377E0</color>
+    <color name="match_super_exposure_process_center">#AD41C2</color>
+    <color name="match_super_exposure_process_end">#8D3F9C</color>
+    <color name="match_super_exposure_process_text">#CA35CB</color>
+
+    <!-- 喜欢列表 -->
+    <color name="like_list_bg">#F5F5F9</color>
+    <color name="like_list_vip_num_text">#F95C54</color>
+    <color name="like_list_vip_button_left">#F85858</color>
+    <color name="like_list_vip_button_right">#FD8251</color>
+    <color name="like_list_vip_feature_title_text">#C93805</color>
+    <color name="like_list_vip_shadow">#11FFFFFF</color>
+
+    <!-- VIP弹窗 -->
+    <color name="dialog_open_vip_price_bg_normal">#F0F0F0</color>
+    <color name="dialog_open_vip_price_bg_hot">#E1F4FF</color>
+    <color name="dialog_open_vip_price_bg_hot_stroke">#2C84C6</color>
+    <color name="dialog_open_vip_price_hot_text">#256AD2</color>
+    <color name="dialog_open_vip_buy_bg_start">#54B4EF</color>
+    <color name="dialog_open_vip_buy_bg_end">#5FBDF7</color>
+    <color name="dialog_open_vip_free_text">#2AA7F1</color>
+    <color name="dialog_open_vip_free_border">#CCCCCC</color>
+    <color name="dialog_open_vip_banner10">#C693F6</color>
+    <color name="dialog_open_vip_banner11">#A14FD1</color>
+    <color name="dialog_open_vip_banner20">#54B4EF</color>
+    <color name="dialog_open_vip_banner21">#3A84DE</color>
+    <color name="dialog_open_vip_banner30">#92D98F</color>
+    <color name="dialog_open_vip_banner31">#42B552</color>
+    <color name="dialog_open_vip_banner40">#FBAEE1</color>
+    <color name="dialog_open_vip_banner41">#A367DA</color>
+    <color name="dialog_open_vip_banner50">#EFC2F9</color>
+    <color name="dialog_open_vip_banner51">#DA67B6</color>
+    <color name="dialog_open_vip_banner60">#99D8FF</color>
+    <color name="dialog_open_vip_banner61">#2F9CDA</color>
+
+    <!--解绑银行卡弹窗-->
+    <color name="dialog_wallet_unbind_account_confirm">#00B6F5</color>
+    <color name="dialog_wallet_unbind_account_cancel">#333333</color>
+
+    <!-- 首页 -->
+    <color name="home_item_country">#666666</color>
+    <color name="home_item_country_border">#D6D6D6</color>
+    <color name="home_item_banner_indicator_normal">#66454545</color>
+    <color name="home_item_banner_indicator_selected">#a6FFFFFF</color>
+    <color name="home_three_parallelogram_0">#666666</color>
+    <color name="home_three_parallelogram_1">#666666</color>
+    <color name="home_three_parallelogram_2">#666666</color>
+    <color name="home_sex_bg_select_pressed">#F0F0F0</color>
+
+    <!-- 圈子（动态） -->
+    <color name="circle_top_message_bg">#DDD2E6F2</color>
+    <color name="circle_item_translation">#D88F5E</color>
+    <color name="circle_item_image_bg">#EFEFEF</color>
+    <color name="circle_item_image_long_pic_bg">#9954B4EF</color>
+    <color name="circle_item_like">#F95C54</color>
+    <color name="circle_hot_comment_name">#84BA75</color>
+    <color name="circle_hot_comment">#666666</color>
+    <color name="circle_detail_comment_header">#84BA75</color>
+    <color name="circle_detail_comment_like_num">#EC8A85</color>
+    <color name="circle_detail_comment_sub_text">#666666</color>
+    <color name="circle_detail_comment_sub_num">#D88F5E</color>
+    <color name="circle_detail_comment_sub_name">#84BA75</color>
+    <color name="circle_reward_start">#29a3fa</color>
+    <color name="circle_reward_end">#3a5dde</color>
+    <color name="circle_reward_sort_bg_normal_stroke">#5CA0F5</color>
+    <color name="circle_reward_sort_bg_normal">#7BB6FC</color>
+    <color name="circle_reward_sort_txt_select">#318DF2</color>
+    <color name="circle_reward_remark_hint">#6A97EE</color>
+    <color name="circle_reward_balance">#ACBBF1</color>
+    <color name="circle_reward_recharge">#FFC002</color>
+    <color name="circle_reward_button">#54B4EF</color>
+    <color name="circle_reward_chat_bg">#DC2B2A2A</color>
+    <color name="circle_reward_chat_text">#FEC602</color>
+    <color name="circle_reward_chat_detail_confirm">#FEE302</color>
+    <color name="circle_reward_chat_detail_confirm_text">#4F3205</color>
+    <color name="circle_option_focus">#F95C54</color>
+    <color name="circle_option_line">#ECEEF1</color>
+    <color name="circle_view_more_comment">#D88F5E</color>
+    <color name="circle_comment_replay_name">#FE5E5E</color>
+    <color name="circle_msg_type_item">#F4F4F4</color>
+    <color name="circle_msg_type_item_select">#e2dfdf</color>
+    <!-- 图片查看 -->
+    <color name="image_scan_title_bg">#131313</color>
+    <color name="image_splash_grey">#33AAAAAA</color>
+
+    <!-- 发布动态 -->
+    <color name="publish_vip_feature_text">#F95C54</color>
+    <color name="publish_location_switch_bg_unable">#C5C5C5</color>
+    <color name="publish_location_switch_bg_able">#00ADF3</color>
+
+
+    <!--钱包-->
+    <color name="wallet_bg_info_color_start">#54B4EF</color>
+    <color name="wallet_line">#abd0fb</color>
+    <color name="wallet_bg_info_color_end">#5A8AF6</color>
+    <color name="wallet_bg_vertical_line">#CCCCCC</color>
+    <color name="wallet_bg_grid_line">#D9D9D9</color>
+    <color name="wallet_bg_status_bar">#47A7EF</color>
+
+    <!--钱包今日收益-->
+    <color name="wallet_income_today_private_photo_start">#3C83E2</color>
+    <color name="wallet_income_today_private_photo_end">#817BFE</color>
+    <color name="wallet_income_today_moments_circle_start">#FE9556</color>
+    <color name="wallet_income_today_moments_circle_end">#F97045</color>
+    <color name="wallet_income_today_present_start">#FF7373</color>
+    <color name="wallet_income_today_present_end">#E95455</color>
+    <!--提现-->
+    <color name="wallet_withdraw_apply">#54B4EF</color>
+    <!--提现记录的三个状态-->
+    <color name="wallet_withdraw_record_ing">#80C27B</color>
+    <color name="wallet_withdraw_record_fail">#F95C54</color>
+    <color name="wallet_withdraw_record_success">#54B4EF</color>
+    <color name="wallet_withdraw_record_detail_ing">#80c27b</color>
+    <color name="wallet_withdraw_record_detail_fail">#f95c54</color>
+
+    <!--充值-->
+    <color name="recharge_sort_solid_select">#E1F3FE</color>
+    <!--充值vip 优惠信息的背景-->
+    <color name="recharge_open_vip_discounts_start">#F74242</color>
+    <color name="recharge_open_vip_discounts_end">#FC7444</color>
+
+    <color name="recharge_sort_discounts_normal_start">#B6B5B5</color>
+    <color name="recharge_sort_discounts_normal_end">#CECECE</color>
+    <color name="recharge_sort_discounts_select_start">#E2514A</color>
+    <color name="recharge_sort_discounts_select_end">#E97B51</color>
+    <color name="recharge_result_new_user_verify_code_bg">#FCFEFF</color>
+    <color name="recharge_result_new_user_verify_code_text">#00B6F5</color>
+
+    <!-- 聊天面板 -->
+    <color name="chat_activity_bg">#F0F0F0</color>
+    <color name="chat_message_right_panel_pressed">#00B6F5</color>
+    <color name="chat_message_text_left_src">#70747C</color>
+    <color name="chat_message_text_left_dst">#979A9F</color>
+    <color name="chat_message_text_right_src">@color/white</color>
+    <color name="chat_message_text_right_dst">#E0F0FC</color>
+    <color name="chat_message_text_divider_left">#C8CBD0</color>
+    <color name="chat_message_text_divider_right">#66FFFFFF</color>
+    <color name="chat_new_friend">#D4D4D4</color>
+    <color name="chat_voice_level_content">#D9D9D9</color>
+    <color name="chat_voice_input_bg">#5997FE</color>
+    <color name="chat_voice_input_progress">#186EFE</color>
+    <!--聊天-曝光-用户边框-->
+    <color name="chat_exposure_icon_border_0">#9DF6A1</color>
+    <color name="chat_exposure_icon_border_1">#A1F8F4</color>
+    <color name="chat_exposure_icon_border_2">#feee59</color>
+    <color name="chat_exposure_icon_border_3">#feee59</color>
+
+    <color name="chat_exposure_icon_mine_border_normal">#D6D6D6</color>
+
+    <color name="chat_exposure_process_0">#fe4582</color>
+    <color name="chat_exposure_process_1">#FE3A78</color>
+    <color name="chat_exposure_process_2">#fbaee2</color>
+    <color name="chat_exposure_process_3">#fbf9fc</color>
+
+    <!-- 聊天-曝光-立即购买 -->
+    <color name="chat_exposure_button_white">#F1FAFF</color>
+    <color name="chat_exposure_button_blue">#34A5EA</color>
+    <color name="chat_exposure_border_color">#00B6F5</color>
+
+    <color name="chat_match_success_congratulations">#BA47A6</color>
+    <color name="chat_match_success_congratulations_content">#BA47A6</color>
+    <!--常用dialog弹框-->
+    <color name="dialog_common_confirm">#00B6F5</color>
+
+    <!--我的-->
+    <color name="me_top_bg_start">#624BED</color>
+    <color name="me_top_bg_center">#AC4BF8</color>
+    <color name="me_top_bg_end">#C050D1</color>
+    <color name="me_top_sex_start">#F85858</color>
+    <color name="me_top_sex_end">#FD8251</color>
+    <color name="me_card_one_bg">#FEFEFE</color>
+    <color name="me_card_two_bg">#FFFFFF</color>
+
+    <!--个人信息-->
+    <color name="personal_info_flag_solider">#F2F3F4</color>
+    <color name="personal_info_2__flag_solider">#F7F7F7</color>
+    <color name="personal_info_flag_selected_count">#E54242</color>
+    <color name="personal_info_flag_interesting_txt">#3091CD</color>
+    <color name="personal_info_edit_flag_interesting_txt">#2291D6</color>
+    <color name="personal_info_2_flag_interesting_txt">#0384CE</color>
+    <!--指示器选中与未选中-->
+    <color name="personal_info_2_indicator_normal">#99bdbdbd</color>
+    <color name="personal_info_2_indicator_selected">@android:color/white</color>
+
+    <!--个人主页 标签 兴趣背景 在几个里面随机取-->
+    <color name="personal_info_flag_interesting_bg_random_0">#F6F1F1</color>
+    <color name="personal_info_flag_interesting_bg_random_1">#EFE7EE</color>
+    <color name="personal_info_flag_interesting_bg_random_2">#E4F3FC</color>
+    <color name="personal_info_flag_interesting_bg_random_3">#ECF5EF</color>
+    <color name="personal_info_flag_interesting_bg_random_4">#F2EBE3</color>
+    <color name="personal_info_flag_interesting_bg_random_5">#EDEDED</color>
+    <color name="personal_info_flag_interesting_bg_random_6">#F3E8E8</color>
+    <color name="personal_info_flag_interesting_bg_random_7">#EFEFEF</color>
+    <color name="personal_info_flag_interesting_bg_random_8">#EFEDF3</color>
+
+
+    <color name="edit_personal_information_head_start">#99D7FD</color>
+    <color name="edit_personal_information_head_end">#54B4EF</color>
+    <color name="edit_personal_information_nickname_border">#ADE0FF</color>
+
+    <!--系统消息未读-->
+    <color name="system_message_unread">#F95C54</color>
+
+    <!--我的礼物 钻石的数量-->
+    <color name="my_present_title_drill_count">#F53737</color>
+    <color name="my_present_present_count">#F1991C</color>
+    <!--邀请好友-->
+    <color name="invite_friends_invite_flow_index">#D8D7D7</color>
+
+    <!-- 视频通话 -->
+    <color name="video_call_dialing_text">#FFFFFF</color>
+    <color name="video_call_toast_bg">#7E000000</color>
+    <color name="video_call_bottom_button_bg">#D8605F5F</color>
+    <!-- 视频通话翻译展示控件 -->
+    <color name="video_call_trans_text_me">#FDFA03</color>
+    <color name="video_call_trans_text_other">#73EAFC</color>
+    <color name="video_call_trans_line">#7E615F5F</color>
+    <color name="video_call_trans_bg">#7E333333</color>
+    <color name="video_call_trans_msg_num_bg_start">#7EFB6182</color>
+    <color name="video_call_trans_msg_num_bg_end">#7EF61004</color>
+    <color name="video_call_trans_scrollbar">#7EFFFFFF</color>
+    <color name="video_call_enter_text_bg">#F3F2F4</color>
+
+    <!--系统通知-->
+    <color name="system_notice_bg">#E1F3FE</color>
+
+    <!--设置-->
+    <color name="setting_logout_txt">#F95C54</color>
+
+    <!-- 举报 -->
+    <color name="report_select_reason">#E1F3FE</color>
+    <color name="report_reason_border_selected">@color/blue_nomal</color>
+    <color name="report_reason_border_unselected">#CCCCCC</color>
+
+    <!-- 我的会员 -->
+    <color name="my_vip_month">#F9F610</color>
+    <color name="my_vip_valid_date">#CCFFFFFF</color>
+
+    <!-- 版本更新 -->
+    <color name="update_dialog_button_left">#54B4EF</color>
+    <color name="update_dialog_button_right">#339FE2</color>
+    <color name="update_dialog_mask">#8EFFFFFF</color>
+
+    <!-- 启动页 -->
+    <color name="splash_bg">#131416</color>
+
+    <!-- 高清头像上传 -->
+    <color name="upload_avatar_button_disable">#AADAF7</color>
+
+
+    <!--猪年活动促销-->
+    <color name="activity_pig_year_vip_current">#F03B88</color>
+    <color name="activity_pig_year_vip_old">#F03B88</color>
+    <color name="activity_pig_year_vip_current_unselected">#666666</color>
+    <color name="activity_pig_year_vip_old_unselected">#999999</color>
+    <color name="activity_pig_year_vip_month_number">#3565CA</color>
+
+    <!-- 头像/旗帜边线 -->
+    <color name="image_border_line_color">#e9e9e9</color>
+
+    <!--注销账号-->
+    <color name="logout_reasons_back_color">#f4f4f4</color>
+
+    <!--翻译包-->
+    <color name="mine_translate_date_invalid">#4B73D8</color>
+    <color name="mine_translate_date_valid">#CCEBFF</color>
+    <color name="mine_translate_top_bg">#47A7EF</color>
+    <color name="mine_translate_item_price">#3260D3</color>
+    <color name="mine_translate_item_price_permanent">#1461CF</color>
+    <color name="register_face_auth_bg">#D8D8D8</color>
+
+    <!--收益明细-->
+    <color name="income_detail_tab_color1">#F55B5B</color>
+    <color name="income_detail_tab_color2">#54B4EF</color>
+
+    <!--视频通话-->
+    <color name="video_call_trans_divider">#615F5F</color>
+
+    <!--收益明细-->
+    <color name="income_details_diamond_num">#FE5E5E</color>
+
+    <color name="chat_sysytem_txt_center">#A8ABB2</color>
+
+    <color name="submit">#5997FE</color>
+    <color name="blue_nomal">#5997FE</color>
+    <color name="red_nomal">#FF4E78</color>
+    <color name="gray_70747C">#70747C</color>
+    <color name="gray_f2f3f4">#F2F3F4</color>
+    <color name="color_hint">#A8ABB2</color>
+    <color name="text_a8aba2">#A8ABB2</color>
+    <color name="text_lucky">#FD685C</color>
+    <color name="spring_festival_bar_color">#FF0037AF</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_toolbar">@color/white</color>
+    <color name="listDividerGrey">#F5F5F9</color>
+
+    <color name="line_ccc">#CCCCCC</color>
+    <color name="line_f0f0f0ff">#F0F0F0FF</color>
+    <!--长分割线-->
+    <color name="line_long_divder_line">#D3D6DA</color>
+    <!--短分割线，内容之间-->
+    <color name="line_short_divder_line">#ECEEF1</color>
+    <!--按钮正常的颜色  -->
+    <color name="btn_enable_bg_color">#5997FE</color>
+    <!-- 转盘 紫色   -->
+    <color name="purple_nomal">#910DC9</color>
+    <color name="bg_common_grey">#F5F5F9</color>
+</resources>

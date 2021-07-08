@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode 28
+        versionName "2.5.8"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.appcompat:appcompat:${supportLibraryVersionAppcompat}"
+    implementation "androidx.recyclerview:recyclerview:${supportLibraryVersionRecyclerView}"
+    implementation "androidx.concurrent:concurrent-futures:${futures_version}"
+    implementation "com.squareup.okio:okio:${okio_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    implementation "androidx.localbroadcastmanager:localbroadcastmanager:${localbroadcastmanager}"
+    implementation "androidx.camera:camera-view:${camerax_view}"
+    implementation "io.reactivex.rxjava2:rxjava:$rxjavaVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxandroidVersion"
+    api project(':ucrop')
+
+    //基础 库
+    implementation project(':baselib')
+}

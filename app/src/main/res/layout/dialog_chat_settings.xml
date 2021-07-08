@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_default_s"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 聊天 设置 -->
+    <TextView
+        android:text="@string/complete_sheet_sex_title"
+        android:textSize="@dimen/text_default"
+        android:textColor="@color/text_dark"
+        android:gravity="center"
+        android:padding="@dimen/margin_default"
+        android:background="@color/bg_common_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_complete_sheet_male"
+        android:text="@string/male"
+        android:textSize="@dimen/text_default"
+        android:textColor="@color/text_mid_dark"
+        android:gravity="center"
+        android:padding="@dimen/margin_default"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <include layout="@layout/line_grey_light"/>
+
+    <TextView
+        android:id="@+id/tv_complete_sheet_female"
+        android:text="@string/female"
+        android:textSize="@dimen/text_default"
+        android:textColor="@color/text_mid_dark"
+        android:gravity="center"
+        android:padding="@dimen/margin_default"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources xmlns:android="http://schemas.android.com/tools" android:ignore="MissingTranslation,NamespaceTypo">
+    <string name="picture_camera_roll">アルバム</string>
+    <string name="picture_cancel">取り消す</string>
+    <string name="picture_preview">プレビュー</string>
+    <string name="gif_is_over_2M">GIFファイルは2Mを超えることはできません</string>
+</resources>

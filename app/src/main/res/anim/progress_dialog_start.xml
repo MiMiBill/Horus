@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate android:fromXDelta="0"
+        android:toXDelta="0"
+        />
+
+    <scale
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:fromYScale="0.9"
+        android:toYScale="1"
+        android:fromXScale="0.9"
+        android:toXScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="0"
+        android:duration="@integer/progress_dialog_anim_duration_scale" />
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="@integer/progress_dialog_anim_duration_alpha" />
+</set>

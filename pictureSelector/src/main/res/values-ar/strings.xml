@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/tools" android:ignore="MissingTranslation,NamespaceTypo">
+    <string name="picture_camera_roll">الألبوم</string>
+    <string name="picture_cancel">الغاء</string>
+    <string name="picture_preview">المعاينة</string>
+    <string name="gif_is_over_2M">لا يمكن أن يكون ملف Gif أكبر من 2M</string>
+
+</resources>

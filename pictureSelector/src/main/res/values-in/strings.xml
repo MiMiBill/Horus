@@ -1,0 +1,47 @@
+<resources>
+    <string name="picture_camera_roll">Film kamera</string>
+    <string name="picture_cancel">Batalkan</string>
+    <string name="picture_take_picture">Memotret</string>
+    <string name="picture_rule">Tidak dapat memilih gambar atau video secara bersamaan</string>
+    <string name="picture_message_max_num">Anda dapat memilih hingga %1$d gambar</string>
+    <string name="picture_min_img_num">Minimum pilih %1$d foto</string>
+    <string name="picture_min_video_num">Minimum pilih %1$d video</string>
+    <string name="picture_message_video_max_num">Anda dapat memilih hingga %1$d video</string>
+    <string name="picture_preview">Preview</string>
+    <string name="picture_please">Mohon tunggu...</string>
+    <string name="picture_done_front_num">Selesai %1$d/%2$d</string>
+    <string name="picture_completed">Telah selesai</string>
+    <string name="picture_done">Selesai</string>
+    <string name="picture_please_select">Silakan pilih</string>
+    <string name="picture_empty_title">Tidak ada video atau foto\n</string>
+    <string name="picture_empty_audio_title">Tidak ada file audio\n</string>
+    <string name="picture_audio_empty">Anda dapat merekam audio dengan perekaman sistem</string>
+    <string name="picture_empty">Anda dapat mengambil foto atau video dengan kamera Anda</string>
+    <string name="gif_tag">Gambar bergerak</string>
+    <string name="picture_jurisdiction">Baca kartu memori ditolak</string>
+    <string name="picture_camera">Dapatkan izin kamera sistem ditolak</string>
+    <string name="picture_audio">Dapatkan izin rekaman sistem ditolak</string>
+    <string name="picture_video_toast">Video tidak dapat ditampilkan</string>
+    <string name="picture_record_video">Rekam video</string>
+    <string name="picture_photograph">Ambil foto</string>
+    <string name="picture_long_chart">Gambar panjang</string>
+    <string name="picture_warning">Tidak ada file media!</string>
+    <string name="picture_prompt">Tips</string>
+    <string name="picture_prompt_content">Apakah Anda ingin menyimpan gambar ke telepon Anda?</string>
+    <string name="picture_save_error">Gagal menyimpan gambar</string>
+    <string name="picture_save_success">Gambar berhasil disimpan</string>
+    <string name="picture_all_audio">Semua audio</string>
+    <string name="picture_tape">Rekaman</string>
+    <string name="picture_play_audio">Putar</string>
+    <string name="picture_stop_audio">Berhenti</string>
+    <string name="picture_quit_audio">Keluar</string>
+    <string name="picture_pause_audio">Tangguhkan</string>
+    <string name="picture_error">Gambar rusak</string>
+    <string name="picture_video_error">Video rusak</string>
+    <string name="picture_audio_error">Audio rusak</string>
+    <string name="picture_confirm">Konfirmasi</string>
+
+    <!-- 发布动态 -->
+    <string name="publish_selector_finish">Selesai (%1$d)</string>
+
+</resources>

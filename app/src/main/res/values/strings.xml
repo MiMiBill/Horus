@@ -1,0 +1,1445 @@
+<resources xmlns:android="http://schemas.android.com/tools" android:ignore="MissingTranslation,NamespaceTypo">
+    <string name="app_name">Horus</string>
+    <string name="wechat_not_installed">微信未安装</string>
+    <string name="qq_not_installed">QQ未安装</string>
+    <string name="google_service_not_available">谷歌服务不可用</string>
+    <string name="platform_not_exist">平台信息异常</string>
+
+    <!-- 通用 -->
+    <string name="ensure">确定</string>
+    <string name="OK">确定</string>
+    <string name="cancel">取消</string>
+    <string name="commit">提交</string>
+    <string name="confirm">确认</string>
+    <string name="complete">完成</string>
+    <string name="error_data">数据异常，请重试</string>
+    <string name="double_press_to_exit">再次按返回键退出</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="feature_not_open">功能暂未开放</string>
+    <string name="empty_content">空空如也</string>
+    <string name="user_id_not_right">用户ID不正确</string>
+    <string name="no_network">请确保网络可用</string>
+    <string name="timeout">网络超时</string>
+    <string name="save">保存</string>
+    <string name="view_more">查看更多</string>
+    <string name="login_util_input_account">@string/login_input_account</string>
+    <!--引导页-->
+    <string name="feature_jump_over">跳过</string>
+    <string name="feature_go_open">去开启</string>
+
+    <!-- 主页Tab -->
+    <string name="tab_main_home">首页</string>
+    <string name="tab_main_circle">广场</string>
+    <string name="tab_main_chat">聊天</string>
+    <string name="tab_main_match">寻缘</string>
+    <string name="tab_main_me">我的</string>
+
+    <!-- vip权益 -->
+    <string name="vip_func_title_sign_label">VIP身份标识</string>
+    <string name="vip_func_title_unlimited_like">无限喜欢次数</string>
+    <string name="vip_func_title_undo_pass">滑错无限反悔</string>
+    <string name="vip_func_title_see_like_me">查看谁喜欢我</string>
+    <string name="vip_func_title_private_pic">无限发布私密照片</string>
+    <string name="vip_func_title_light_match">每天5次爆灯</string>
+    <string name="vip_func_message_sign_label">专属身份标识，让你与众不同</string>
+    <string name="vip_func_message_unlimited_like">突破限制，放肆喜欢不再顾虑</string>
+    <string name="vip_func_message_undo_pass">缘分稍纵即逝，瞬间找回错过的缘分</string>
+    <string name="vip_func_message_see_like_me">查看所有喜欢你的人，点*配对与TA聊天</string>
+    <string name="vip_func_message_private_pic">发布私密照片，轻松赚钱</string>
+    <string name="vip_func_message_light_match">不想错过，直接配对与TA聊天</string>
+
+    <!-- 选择区域/语言 -->
+    <string name="first_select_next_step">下一步</string>
+    <string name="first_select_null_region">请选择地区</string>
+    <string name="region_title">国家和地区</string>
+    <string name="region_search_hint">选择国家和地区</string>
+    <string name="region_code_title">手机区号</string>
+    <string name="region_code_search_hint">输入国家和地区</string>
+    <string name="region_head_hot">热门</string>
+    <string name="language_title">语言</string>
+    <string name="language_search_hint">选择语言</string>
+
+    <!-- 登录 -->
+    <string name="login_welcome_large">欢迎：</string>
+    <string name="login_welcome_small">来到WorldTalk，</string>
+    <string name="login_register">立即注册</string>
+    <string name="login_input_account">请输入手机号/邮箱</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_button">登录</string>
+    <string name="login_forget_pwd">忘记密码？</string>
+    <string name="verification_code_login">验证码登录</string>
+    <string name="password_login">密码登录</string>
+
+    <string name="login_third_part">or</string>
+    <string name="login_im_success">登录成功</string>
+    <string name="login_im_force_offline">您的帐号在其他设备登录</string>
+    <!--<string name="login_im_no_network">请确保网络可用</string>-->
+    <string name="login_im_sig_expired">已过期，请重新登录</string>
+    <string name="login_im_error">初始化IM失败:%1$d msg:%2$s</string>
+    <!-- 输入校验提示 -->
+    <string name="login_util_input_phone">请输入手机号</string>
+    <string name="login_util_input_email">请输入邮箱</string>
+    <string name="login_util_input_password">请输入密码</string>
+    <string name="login_util_phone_invalid">手机号不正确</string>
+    <string name="login_util_email_invalid">邮箱不正确</string>
+    <string name="login_util_password_rule">密码格式为6–16位数字、字母或符号，不允许有空格</string>
+    <string name="login_util_input_old_pwd">请输入旧密码</string>
+    <string name="login_util_input_new_pwd">请输入新密码</string>
+    <string name="login_util_input_old_new_pwd_not_equals">新密码不能与旧密码相同</string>
+    <string name="login_util_input_verify">请输入验证码</string>
+    <string name="login_util_verify_invalid">验证码不正确</string>
+    <string name="login_enter_verify_code_plz">请输入验证码</string>
+    <string name="login_enter_graphic_code_plz">请输入图形验证码</string>
+    <string name="login_verity_code_error">验证码错误，请重试</string>
+    <!-- 注册 -->
+    <string name="register_one_phone">手机号注册</string>
+    <string name="register_one_phone_title">手机号注册</string>
+    <string name="register_one_email">邮箱注册</string>
+    <string name="register_one_email_title">邮箱注册</string>
+
+    <string name="register_one_next_step">下一步</string>
+    <string name="register_one_account_exist">已有账号？</string>
+    <string name="register_one_login">登录</string>
+    <string name="register_two_title">输入验证码</string>
+    <string name="register_two_code_send">已发送至%1$s</string>
+    <!--<string name="register_two_call_for_help">无法获取验证码，请拨打电话：xxx-xxx-xxxx</string>-->
+    <string name="register_two_verify_code_regain">重新获取验证码</string>
+    <string name="register_two_verify_code_wait">%1$s秒后重新获取验证码</string>
+    <string name="register_title">设置密码</string>
+    <string name="register_button_done">完成</string>
+    <string name="register_input_password">请输入密码</string>
+    <string name="register_contract_input">注册即表示同意 #1 和 #2</string>
+    <string name="register_contract_input_one">注册即表示同意 #1</string>
+    <string name="register_contract_user">《用户协议》</string>
+    <string name="register_contract_user_title">WorldTalk用户协议</string>
+    <string name="register_contract_user_url">file:///android_asset/web_page/userProtocol-cn.html</string>
+    <string name="register_contract_private">《隐私政策》</string>
+    <string name="register_contract_private_title">WorldTalk隐私权政策</string>
+    <string name="register_contract_private_url">file:///android_asset/web_page/private-cn.html</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_password_rule">密码格式为6—16位数字、字母或符号，不允许有空格</string>
+    <string name="login_contract_input">#1 和 #2</string>
+    <string name="about_us_contract">#1 和 #2</string>
+    <string name="privacy_policy_and_user_agreement">隐私政策与用户协议</string>
+    <string name="contract_tips">尊敬的用户：在使用软件之前，为了让您更好地了解我们是如何保护用户的个人信息，请您仔细阅读#1和#2。\n
+重点内容如下：\n
+1.当您使用服务时，我们会根据您的同意，获取您的手机号码、设备信息等\n2.我们会使用 Cookie与同类技术来确保服务正常运转。\n
+3.您可以通过本隐私政策所列的途径访问、更正个人信息，也可以进行与我们取得联系进行删除操作等。\n
+4.未经您许可，我们不会向任何第三方提供您的信息。\n
+5.完整内容点击上方蓝色链接查看。\n
+    </string>
+
+
+    <!-- 忘记密码 -->
+    <string name="forget_one_title">忘记密码</string>
+    <string name="forget_one_next_step">下一步</string>
+    <string name="forget_reset_password">重置密码</string>
+    <string name="forget_reset_pwd_succeed">密码已重置</string>
+
+    <!-- 三方注册绑定 -->
+    <string name="bind_title">绑定联系方式</string>
+    <string name="bind_gain_diamond">您已获得了100颗粉钻</string>
+    <string name="change_phone_title">更换手机号</string>
+    <string name="bind_input_info_to_get_diamond">请输入手机号/邮箱领取</string>
+    <!--<string name="bind_diamond_num">100</string>-->
+    <string name="bind_diamond_value">=1$（可提现）</string>
+    <string name="bind_tab_phone">手机</string>
+    <string name="bind_tab_email">邮箱</string>
+    <string name="bind_input_code">请输入验证码</string>
+    <string name="bind_gain_code">获取验证码</string>
+    <string name="bind_button_text">绑定</string>
+    <string name="bind_please_select_nation_code">请选择区号</string>
+
+    <!-- 完善个人信息 -->
+    <string name="complete_user_info">信息完善</string>
+    <string name="complete_update_head">上传头像</string>
+    <string name="complete_update_head_hint">请上传真实头像，您会获得更多关注</string>
+    <string name="complete_country">国籍/地区</string>
+    <string name="complete_country_input">国籍/地区 :</string>
+    <string name="complete_nicky">昵称</string>
+    <string name="complete_nicky_input">请填写昵称</string>
+    <string name="complete_birthday">出生日期</string>
+    <string name="complete_sex">性别</string>
+    <string name="complete_sex_hint">提交后不可改</string>
+    <string name="complete_inviter_id">邀请人ID</string>
+    <string name="complete_inviter_id_hint">输入邀请码获得100*=1$</string>
+    <string name="complete_button_text">提交</string>
+    <string name="complete_sheet_sex_title">选择性别</string>
+    <string name="complete_please_upload_head">请上传头像</string>
+    <string name="complete_please_select_country">请选择国家/地区</string>
+    <string name="complete_please_select_sex">请选择性别</string>
+    <string name="complete_please_select_birthday">请选择出生日期</string>
+    <string name="complete_upload_head_error">头像上传失败</string>
+    <string name="complete_upload_info_error">用户信息修改失败</string>
+    <string name="complete_invite_tip">此手机已使用过邀请码</string>
+    <string name="complete_option">选填</string>
+    <string name="complete_invite_code_error_retype">重输</string>
+    <string name="complete_invite_code_error_skip">跳过</string>
+    <!-- 寻缘 -->
+    <string name="match_title">寻缘</string>
+    <!--<string name="match_succeed_title">World Talk</string>-->
+    <string name="match_succeed_slogan">&#160;&#160;&#160;&#160;人的一生会遇到约2920万人，两人相互喜欢的概率是0.000049，这就叫缘分。</string>
+    <string name="match_succeed_start_chat">开始聊天</string>
+    <string name="match_succeed_return">继续寻缘</string>
+    <string name="match_super_exposure">超级曝光</string>
+    <!--<string name="match_super_exposure_default_price">40</string>-->
+    <string name="match_super_exposure_find">查看</string>
+    <string name="match_super_exposure_info">30分钟内卡片加倍曝光，配对猛涨！</string>
+    <string name="match_super_exposure_end">您的加倍曝光已结束</string>
+    <string name="match_super_exposure_count_input">%1$d次</string>
+    <string name="match_super_buy_now">立即购买</string>
+    <string name="match_super_go_recharge">去充值</string>
+    <string name="match_super_exposure_price_count_input">$%1$s/次</string>
+    <string name="match_like_count_not_enough">今日爆灯次数已用完</string>
+
+    <!-- 喜欢/被喜欢列表 -->
+    <string name="like_list_like">喜欢</string>
+    <string name="like_list_be_liked">喜欢我</string>
+    <string name="like_list_vip_num_start">共有</string>
+    <string name="like_list_vip_num_end">人喜欢过你</string>
+    <string name="like_list_vip_hint">获取VIP可以查看所有喜欢过你的人</string>
+    <string name="like_list_vip_button_text">获取VIP</string>
+    <string name="like_list_vip_func_title">VIP享有6项特权</string>
+    <string name="like_empty_msg_be_liked">完善个人信息，让更多的人喜欢你！</string>
+    <string name="like_empty_btn_be_liked">个人信息</string>
+    <string name="like_empty_msg_i_like">与其未知的等待，不如主动去寻缘！</string>
+    <string name="like_empty_btn_i_like">寻缘</string>
+
+    <!-- VIP窗口 -->
+    <string name="dialog_vip_month_one">1个月</string>
+    <string name="dialog_vip_month_three">3个月</string>
+    <string name="dialog_vip_month_twelve">12个月</string>
+    <!--<string name="dialog_vip_price_one">$99.0</string>-->
+    <!--<string name="dialog_vip_price_three">$199.0</string>-->
+    <!--<string name="dialog_vip_price_twelve">$998.0</string>-->
+    <!--<string name="dialog_vip_price_old_one">$199.0</string>-->
+    <!--<string name="dialog_vip_price_old_three">$199.0</string>-->
+    <!--<string name="dialog_vip_price_old_twelve">$199.0</string>-->
+    <string name="dialog_vip_hot_price">热门推荐</string>
+    <string name="dialog_vip_off_sale">%1$s折</string>
+    <string name="dialog_vip_buy_now">立即购买</string>
+    <string name="dialog_vip_or">或</string>
+    <string name="dialog_vip_get_one_month_vip_free">免费获得1个月VIP</string>
+    <string name="dialog_vip_invite_five_friends">邀请5个好友注册app</string>
+    <string name="dialog_vip_title">会员充值</string>
+    <string name="dialog_vip_invite_last_friends_input">邀请%1$d个好友注册app</string>
+    <string name="dialog_vip_input_month">%1$d个月</string>
+    <string name="dialog_vip_input_month_vip">%1$d个月的vip</string>
+    <string name="dialog_vip_unit_month">%1$s¥/月</string>
+
+    <!-- 主页 -->
+    <!-- 首页 -->
+    <!--<string name="home_title">World Talk</string>-->
+    <string name="home_match">寻缘</string>
+    <string name="home_like_me">喜欢我的</string>
+    <string name="home_popup_sex_all">不限</string>
+    <string name="home_tab_all">全部</string>
+    <string name="home_tab_ua_ru">乌克兰俄罗斯</string>
+    <string name="home_tab_eu">欧美</string>
+    <string name="home_tab_kkc">日韩</string>
+    <string name="home_tab_sa">东南亚</string>
+    <string name="home_tab_cls">中港台</string>
+    <string name="home_tab_rests">其他</string>
+    <!-- 圈子（动态） -->
+    <string name="circle_tab_friend">关注</string>
+    <string name="circle_tab_world">社区</string>
+    <string name="circle_item_see_translation">查看翻译</string>
+    <string name="circle_item_hide_translation">隐藏翻译</string>
+    <string name="circle_item_see_original">查看原文</string>
+    <string name="circle_item_add_comment">添加评论</string>
+    <string name="circle_item_follow">+关注</string>
+    <string name="circle_item_image_long_pic">长图</string>
+    <string name="circle_item_delete_confirm">确认删除这条动态吗?</string>
+    <string name="circle_type_text">文本</string>
+    <string name="circle_type_image">图片</string>
+    <string name="circle_type_video">视频</string>
+    <string name="circle_publish_please_unlock_one">请先解锁一张图片</string>
+    <string name="circle_option_black">拉黑</string>
+    <string name="circle_option_shield">屏蔽</string>
+    <string name="circle_option_un_shield">取消屏蔽</string>
+
+    <string name="circle_video_wifi_confirm">继续播放</string>
+    <string name="circle_video_wifi_cancel">停止播放</string>
+    <string name="circle_video_wifi_tip">您当前正在使用移动网络，继续播放将消耗流量</string>
+
+    <!-- 圈子（动态）详情 -->
+    <string name="circle_detail_title">评论详情</string>
+    <string name="circle_detail_comment_header">全部评论</string>
+    <string name="circle_detail_comment_sub_num">评论%1$d条</string>
+    <!-- 圈子（动态）消息 -->
+    <string name="circle_message_clear">清空</string>
+    <string name="circle_message_title">消息</string>
+    <string name="circle_message_item_commented">评论了：</string>
+    <string name="circle_message_item_liked">点赞了：</string>
+    <string name="circle_message_item_default_title">动态</string>
+    <string name="circle_block_img_tip_input">查看该照片消耗%1$d*</string>
+    <string name="circle_block_img_tip_input_not_enough">余额不足</string>
+
+    <!-- 互动通知 -->
+    <string name="circle_message">互动通知</string>
+    <string name="circle_message_notice">通知</string>
+    <string name="circle_message_comment">评论</string>
+    <string name="circle_message_thumbup">点赞</string>
+    <!--打赏-->
+    <!--<string name="circle_reward_sort_0">10</string>-->
+    <!--<string name="circle_reward_sort_1">20</string>-->
+    <!--<string name="circle_reward_sort_2">30</string>-->
+    <string name="circle_reward_remark_hint">你想对TA说的话~</string>
+    <string name="circle_reward_balance_input">余额:%1$d</string>
+    <string name="circle_reward_recharge">充值</string>
+    <string name="circle_reward">打赏</string>
+    <string name="circle_reward_success">打赏成功</string>
+
+    <!-- 闪屏 -->
+    <string name="image_splash_loading">加载中…</string>
+    <string name="image_splash_load_failed">加载失败，点击重试</string>
+    <string name="image_splash_time">剩余显示%1$ds</string>
+
+    <!-- 发布动态 -->
+    <string name="publish_title">发布动态</string>
+    <string name="publish_toolbar_finish">完成</string>
+    <string name="publish_input_hint">发布动态，让世界发现你…</string>
+    <string name="publish_every_three_pics_lock_one">每3张可加密1张</string>
+    <string name="publish_available_lock_num">可加密私密照%1$d张</string>
+    <string name="publish_to_world">发布到世界圈</string>
+    <string name="publish_to_friend">发布到朋友圈</string>
+    <string name="publish_private_pic">私密照片</string>
+    <string name="publish_location">所在位置</string>
+    <string name="publish_vip_buy">VIP特权</string>
+    <string name="publish_vip_renew">续费VIP</string>
+    <string name="publish_private_pic_description">!你设置的私密照片被浏览1次将获得5*，所得收益将会全部划入你的钱包。</string>
+    <string name="publish_no_content">请填写内容或上传照片/视频</string>
+    <string name="publish_upload_error">文件上传失败</string>
+    <string name="publish_success">发布成功</string>
+    <!-- 拍照/录视频 -->
+    <string name="publish_audio_permission_request">请打开麦克风权限</string>
+    <string name="publish_camera_error">系统异常</string>
+    <string name="publish_camera_data_null">数据为空</string>
+    <string name="publish_camera_tip">轻触拍照，按住摄像</string>
+    <string name="publish_camera_tip_photo_only">轻触拍照</string>
+    <!-- 照片/视频选择 -->
+    <string name="publish_pick_from_camera">拍摄</string>
+    <string name="publish_pick_photos_or_videos">照片或视频</string>
+    <string name="publish_pick_from_album">从手机相册选择</string>
+    <string name="publish_pick_cancel">取消</string>
+    <string name="publish_selector_finish">完成(%1$d)</string><!-- 需要在module中定义 -->
+
+    <!-- 聊天/消息 -->
+    <string name="chat_title">消息</string>
+    <string name="chat_search_friend">搜索好友</string>
+    <string name="chat_add_search_friend_not_find">未搜索到此用户</string>
+    <string name="chat_my_friends">我的好友</string>
+    <string name="chat_my_friends_request">加好友申请</string>
+    <string name="chat_my_friends_tel_input">Tel:%1$s</string>
+    <string name="chat_my_friends_introduce_input">签名:%1$s</string>
+    <string name="chat_my_friends_empty_tip">去邀请更多好友</string>
+    <string name="chat_like_list">喜欢的人</string>
+    <string name="chat_add_scan">扫一扫</string>
+    <string name="chat_add_friends">添加好友</string>
+    <!--<string name="chat_msg_num_more">99+</string>-->
+    <string name="chat_default_group_name">默认群组名</string>
+    <string name="chat_type_friend_request">好友申请</string>
+    <string name="chat_type_visitor">访客</string>
+
+    <!-- IM chat -->
+    <string name="chat_image">图片</string>
+    <string name="chat_file">文件</string>
+    <string name="chat_photo">拍摄</string>
+    <string name="chat_video">小视频</string>
+    <string name="chat_audio_too_short">录音过短，请重试</string>
+    <string name="chat_audio_too_long">录音过长，请重试</string>
+    <string name="chat_video_too_short">录制过短，请重试</string>
+    <string name="chat_video_size_limit">视频文件不能超过100MB</string>
+    <string name="chat_resend">重新发送</string>
+    <string name="chat_pullback">撤回</string>
+    <string name="chat_pullback_not_support">该会话不支持消息撤回</string>
+    <string name="chat_del">删除</string>
+    <string name="chat_save">保存</string>
+    <string name="chat_copy">复制</string>
+    <string name="chat_file_too_large">文件过大，发送失败</string>
+    <string name="chat_file_not_exist">文件不存在，发送失败</string>
+    <string name="chat_image_preview_title">图片预览</string>
+    <string name="chat_image_preview_send">发送</string>
+    <string name="chat_image_preview_load_err">图片加载失败</string>
+    <string name="chat_image_preview_ori">原图发送</string>
+    <string name="chat_typing">对方正在输入…</string>
+    <string name="chat_content_bad">内容含有敏感词</string>
+    <string name="chat_delete_conversation">删除会话:%1$s</string>
+    <string name="chat_revoke">你撤回了一条消息</string>
+    <string name="chat_revoke_other">\'%1$s\'撤回了一条消息</string>
+    <!-- 聊天消息 -->
+    <string name="chat_message_hi">Hi, 我可以认识你吗？</string>
+    <string name="chat_message_hi_language">我会说的语言:%1$s</string>
+    <!--礼物消息-->
+    <string name="chat_message_gift">[礼物消息]</string>
+    <!--新好友消息-->
+    <string name="chat_message_new_friend">[新好友]</string>
+    <string name="chat_message_new_friend_requested_input">你已添加了%1$s，现在可以开始聊天了。</string>
+    <!--匹配成功消息-->
+    <string name="chat_message_match_success">[匹配成功]</string>
+
+    <string name="chat_message_match_success_input">确认过眼神，你就是对的人，恭喜，你和%1$s匹配成功</string>
+    <string name="chat_message_match_success_input_summary">恭喜，你和%1$s匹配成功</string>
+    <string name="chat_message_match_success_list_title">恭喜</string>
+    <string name="chat_message_match_success_list_content">你和%1$s匹配成功</string>
+    <!--黑名单-->
+    <string name="chat_black_list_tip">您已将对方拉黑，对方无法回复您的消息，是否解除拉黑？</string>
+    <string name="chat_black_list_unblock">解除</string>
+    <string name="chat_blocked_by_other">你已被对方加入黑名单</string>
+
+    <!-- 新版会话页面 -->
+    <string name="chat_buy_exposure_info">%1$s分钟内让更多人看到你</string>
+    <string name="chat_user_visit_you">有%1$s位用户访问了你</string>
+    <string name="chat_user_like_you">有%1$s位用户喜欢了你</string>
+    <string name="chat_user_add_you">有%1$s位用户请求加你为好友</string>
+
+
+    <!-- 时间 -->
+    <string name="chat_time_today">今日</string>
+    <string name="chat_time_yesterday">昨日</string>
+    <string name="chat_time_early_morning">凌晨</string>
+    <string name="chat_time_morning">上午</string>
+    <string name="chat_time_afternoon">下午</string>
+    <string name="chat_time_night">晚上</string>
+    <string name="chat_time_sun">周日</string>
+    <string name="chat_time_mon">周一</string>
+    <string name="chat_time_tues">周二</string>
+    <string name="chat_time_wed">周三</string>
+    <string name="chat_time_thur">周四</string>
+    <string name="chat_time_fri">周五</string>
+    <string name="chat_time_sat">周六</string>
+    <!-- 会话 -->
+    <string name="conversation_system">系统消息</string>
+    <string name="conversation_system_friend">新朋友</string>
+    <string name="conversation_system_group">群组消息</string>
+    <string name="conversation_del">删除会话</string>
+    <string name="conversation_draft">[草稿]</string>
+    <string name="public_group">公开群</string>
+    <string name="discuss_group">讨论组</string>
+    <string name="chatroom">聊天室</string>
+    <string name="save_succ">保存成功</string>
+    <string name="download_fail">下载失败</string>
+    <string name="downloading">正在下载，请稍候</string>
+    <string name="save_fail">保存失败</string>
+    <string name="save_exist">文件已存在</string>
+    <string name="file_not_found">未找到文件，请稍后重试</string>
+    <string name="chat_is_translating">翻译中…</string>
+    <string name="chat_translate_failed">翻译失败</string>
+    <!-- 聊天输入 -->
+    <string name="chat_input_voice_press">按住说话</string>
+    <string name="chat_input_voice_release">松开结束</string>
+    <string name="chat_input_voice_cancel_send">上滑取消发送</string>
+
+    <!-- 聊天设置 -->
+    <string name="chat_setting">聊天设置</string>
+    <string name="chat_setting_mark">设置备注</string>
+    <string name="chat_setting_report">举报此人</string>
+    <string name="chat_setting_clean_history">清空聊天记录</string>
+    <string name="chat_setting_clean_history_confirm">是否清空聊天记录?</string>
+    <string name="chat_setting_user_detail">个人详情</string>
+    <string name="chat_setting_add_friend">添加好友</string>
+    <string name="chat_setting_delete_friend">删除好友</string>
+    <!--<string name="chat_setting_talk_id">TalkID: %1$s</string>-->
+    <string name="chat_setting_nicky_name">昵称: %1$s</string>
+    <string name="chat_setting_add_friend_send">好友申请已发送</string>
+    <string name="chat_setting_delete_friend_ask">是否删除好友</string>
+    <string name="chat_setting_delete_friend_success">好友已删除</string>
+    <string name="chat_setting_add_to_black_list">拉黑</string>
+    <string name="chat_setting_add_to_black_list_ask">拉黑好友?</string>
+
+    <string name="chat_setting_remove_from_black_list">移除黑名单</string>
+
+
+    <!-- 消息 -->
+    <!-- message -->
+    <string name="summary_image">[图片]</string>
+    <string name="summary_voice">[语音]</string>
+    <string name="summary_video">[小视频]</string>
+    <string name="summary_file">[文件]</string>
+    <string name="summary_friend_add">请求添加好友</string>
+    <string name="summary_friend_added">我已添加</string>
+    <string name="summary_friend_add_me">请求添加</string>
+    <string name="summary_friend_recommend">推荐添加</string>
+    <string name="summary_me">我</string>
+    <string name="summary_group_apply">申请加群</string>
+    <string name="summary_group_invite">邀请</string>
+    <string name="summary_group_add">加入群</string>
+    <string name="summary_agree">同意</string>
+    <string name="summary_disagree">拒绝</string>
+    <string name="disagree">不同意</string>
+    <string name="agree">同意</string>
+    <string name="summary_invite_person">邀请人</string>
+    <string name="summary_handle_person">处理人</string>
+    <string name="summary_group_admin_change">管理员变更</string>
+    <string name="summary_group_info_change">群资料变更</string>
+    <string name="summary_group_mem_change">群成员变更</string>
+    <string name="summary_group_mem_add">加入群</string>
+    <string name="summary_group_mem_quit">退出群</string>
+    <string name="summary_group_mem_kick">被踢出群</string>
+    <string name="summary_group_mem_modify">资料变更</string>
+    <string name="summary_video_call">[视频通话]</string>
+
+    <!-- 添加好友 -->
+    <!--<string name="add_friend_title">@string/chat_add_friends</string>-->
+    <!--<string name="add_friend_scan">@string/chat_add_scan</string>-->
+    <string name="add_friend_invite">邀请好友</string>
+    <!--<string name="add_friend_talk_id">Talk ID: %1$s</string>-->
+    <string name="add_friend_search_bar_hint">请输入添加好友的ID</string>
+    <string name="add_friend_user_add">+加好友</string>
+    <string name="add_friend_user_send">已发送</string>
+    <string name="add_friend_user_chat">发消息</string>
+    <string name="add_friend_be_friend_text_message">我通过了你的朋友验证请求，现在我们可以开始聊天了。</string>
+
+
+    <!--钱包-->
+    <string name="wallet_mine_wallet">我的钱包</string>
+    <string name="wallet_account">账户</string>
+    <string name="wallet_balance">余额</string>
+    <string name="wallet_income_today">今日收益</string>
+    <string name="wallet_income_detail">收益明细</string>
+    <string name="wallet_withdraw">提现</string>
+    <string name="wallet_withdraw_record">提现记录</string>
+    <string name="wallet_recharge">充值</string>
+    <string name="wallet_recharge_record">充值记录</string>
+    <string name="wallet_recharge_record_month_current">本月</string>
+    <string name="wallet_recharge_record_pay_type">%1$s充值</string>
+    <string name="wallet_recharge_record_total_price">充值：¥%1$s</string>
+    <string name="wallet_input_convertible_moeny">(可兑换金额%1$d$)</string>
+    <string name="wallet_input_convertible_money_double">(可兑换金额%1$s$)</string>
+    <string name="wallet_withdraw_account">提现账户</string>
+
+    <string name="wallet_recharge_record_year_input">%1$d年</string>
+    <string name="wallet_account_bind">绑定银行卡</string>
+    <string name="wallet_account_unbind">解绑</string>
+    <string name="wallet_recharge_record_12_month">12月</string>
+    <string name="wallet_recharge_record_11_month">11月</string>
+    <string name="wallet_recharge_record_10_month">10月</string>
+    <string name="wallet_recharge_record_9_month">9月</string>
+    <string name="wallet_recharge_record_8_month">8月</string>
+    <string name="wallet_recharge_record_7_month">7月</string>
+    <string name="wallet_recharge_record_6_month">6月</string>
+    <string name="wallet_recharge_record_5_month">5月</string>
+    <string name="wallet_recharge_record_4_month">4月</string>
+    <string name="wallet_recharge_record_3_month">3月</string>
+    <string name="wallet_recharge_record_2_month">2月</string>
+    <string name="wallet_recharge_record_1_month">1月</string>
+    <string name="wallet_recharge_record_year_month_input">%1$s年%2$s</string>
+    <string name="wallet_account_unbind_bink">是否解除银行卡绑定</string>
+    <string name="wallet_account_unbind_alipay">是否解除支付宝绑定</string>
+    <string name="recharge_ask_help_full">#0 遇到充值问题请#1</string>
+    <string name="recharge_ask_help_contact">联系客服</string>
+
+    <!--今日收益-->
+    <string name="wallet_today_income_private_photo">私密照收益</string>
+    <string name="wallet_today_income_moments_circle">动态圈收益</string>
+    <string name="wallet_today_income_chat">聊天收益</string>
+    <!--<string name="wallet_today_income_convertible_input"> = %1$s$</string>-->
+    <!--提现-->
+    <string name="wallet_withdraw_apply">申请提现</string>
+    <string name="wallet_withdraw_tip">注意事项</string>
+    <string name="wallet_withdraw_tip_content_1">1.提现时间（每月11日10点～15日24点\n2.提现标准（≥10000</string>
+    <string name="wallet_withdraw_tip_content_2">可发起提现）\n备注\n·您发起提现后,平台将在20个工作日内付款,请注意查收;\n·如果提现失败，请检查您的银行账号是否正确,请修正后 下个月再次发起提现；\n·提现需扣个人所得税和汇款手续费；\n·提现金额按国际汇率实时计算</string>
+    <string name="wallet_withdraw_sort_convertible_input">兑换: %1$s$</string>
+    <string name="wallet_withdraw_count_not_enough">您的余额未达到提现标准,不可提现</string>
+    <string name="wallet_withdraw_not_auth_bind_card">马上绑定银行账户</string>
+    <string name="wallet_withdraw_not_auth_bind_card_tip">未绑定银行卡信息，无法提现</string>
+    <string name="wallet_withdraw_record_title">记录</string>
+    <string name="wallet_withdraw_state_ing">提现中</string>
+    <string name="wallet_withdraw_state_fail">提现失败</string>
+    <string name="wallet_withdraw_state_success">提现成功</string>
+    <!--<string name="unit_dollar_input_forward">$%1$s</string>-->
+    <string name="wallet_withdraw_auth_real_name">真实姓名</string>
+    <string name="wallet_withdraw_auth_id_card">身份证号</string>
+    <string name="wallet_withdraw_auth_title">身份认证</string>
+    <string name="wallet_withdraw_auth_name_not_legal">请输入正确的姓名</string>
+    <string name="wallet_withdraw_auth_id_card_not_legal">请输入正确的身份证号</string>
+    <string name="wallet_withdraw_account_colon">提现账户: </string>
+    <string name="wallet_withdraw_account_hint">支付宝账号/手机号码</string>
+    <string name="wallet_withdraw_account_type_bank">储蓄卡</string>
+    <string name="wallet_withdraw_account_type_quick_pay">快捷支付</string>
+    <string name="wallet_withdraw_account_bind_date_input">绑定日期: %1$s</string>
+    <string name="wallet_withdraw_real_name_colon">真实姓名: </string>
+    <string name="wallet_withdraw_real_name_hint">请输入支付宝真实姓名</string>
+
+    <!--绑定-->
+    <string name="wallet_withdraw_bind_bank_tip">请填写您本人的银行卡信息</string>
+    <string name="wallet_withdraw_bind_alipay_tip">请填写您本人的账户信息</string>
+    <string name="wallet_withdraw_bind_confirm">确认绑定</string>
+    <string name="bank">银行卡</string>
+
+    <string name="wallet_withdraw_bind_bank_name_user_colon">姓名:&#8195;&#8195; </string>
+    <string name="wallet_withdraw_bind_bank_num_colon">卡号:&#8195;&#8195; </string>
+    <string name="wallet_withdraw_bind_bank_name_colon">银行:&#8195;&#8195; </string>
+    <string name="wallet_withdraw_bind_bank_open_colon">开户支行: </string>
+    <string name="wallet_withdraw_bind_id_card_colon">身份证号: </string>
+
+    <string name="wallet_withdraw_bind_bank_name_user_hint">收款人姓名</string>
+    <string name="wallet_withdraw_bind_bank_num_hint">收款人储蓄卡号</string>
+    <string name="wallet_withdraw_bind_bank_name_hint">请选择银行</string>
+    <string name="wallet_withdraw_bind_bank_open_hint">请输入您开户的支行</string>
+    <string name="wallet_withdraw_record_detial_tip_ing_success">最终打款金额以转账当日汇率为准</string>
+    <string name="wallet_withdraw_record_detail_title">提现详情</string>
+
+    <string name="wallet_withdraw_record_create_time">创建时间: </string>
+    <string name="wallet_withdraw_record_name">姓名:&#8195;&#8195; </string>
+    <string name="wallet_withdraw_record_bank_num">银行卡号: </string>
+    <string name="wallet_withdraw_record_alipay_account">支付宝账号: </string>
+    <string name="wallet_withdraw_record_count">提现额度: </string>
+    <string name="wallet_withdraw_record_money">提现金额: </string>
+    <string name="wallet_withdraw_record_order_num">订单号: </string>
+    <string name="wallet_withdraw_record_fail_tip_input">失败原因: %1$s</string>
+
+
+    <string name="withdraw_bind_bank_foreign_card_num_colon">银行卡号:</string>
+    <string name="withdraw_bind_bank_foreign_name_colon">姓名:</string>
+    <string name="withdraw_bind_bank_foreign_receiver_address_colon">收款人地址:</string>
+    <string name="withdraw_bind_bank_foreign_receiver_address_hint">请输入详细地址</string>
+    <string name="withdraw_bind_bank_foreign_receiver_open_code">收款人开户行代码: </string>
+    <string name="withdraw_bind_bank_foreign_swift_code">SWIFT代码</string>
+    <string name="withdraw_bind_bank_foreign_clean_code">地区清算代码</string>
+    <string name="withdraw_bind_bank_foreign_swift_code_hint">请输入提现账户SWIFT代码</string>
+    <string name="withdraw_bind_bank_foreign_clean_code_hint">请输入提现账户地区清算代码</string>
+    <string name="withdraw_bind_phone_hint">请输入手机号</string>
+    <!--<string name="withdraw_bind_phone_are_code_default">+001</string>-->
+    <!--<string name="withdraw_bind_phone_are_code_input">+%1$d</string>-->
+    <string name="withdraw_bind_title_alipay">绑定转账账户</string>
+    <string name="withdraw_bind_title_alipay_edit">编辑转账账户</string>
+    <string name="withdraw_bind_title_bank">绑定银行卡</string>
+    <string name="withdraw_bind_title_bank_edit">编辑银行卡</string>
+    <string name="withdraw_bind_title_bank_select">开户行选择</string>
+    <string name="withdraw_input_password">输入密码</string>
+    <string name="withdraw_input_password_forget">忘记提现密码?</string>
+    <string name="withdraw_bind_phone_tip">请输入%1$s接收到的短信验证码</string>
+    <string name="withdraw_bind_email_tip">请输入%1$s接收到的邮件验证码</string>
+    <string name="withdraw_bind_phone_message_verify_code">短信验证码</string>
+    <string name="withdraw_bind_email_message_verify_code">邮件验证码</string>
+    <string name="withdraw_bind_phone_send_verify_code">发送验证码</string>
+    <string name="withdraw_bind_phone_verify">手机号验证</string>
+    <!--<string name="withdraw_bind_phone_count_down">%1$ss</string>-->
+    <string name="withdraw_set_withdraw_password">设置提现密码</string>
+    <string name="withdraw_reset_withdraw_password">重置提现密码</string>
+    <string name="withdraw_set_withdraw_forget_password">忘记提现密码</string>
+
+
+    <!--银行名称-->
+    <string name="money_account_gongshang">中国工商银行</string>
+    <string name="money_account_guangda">中国光大银行</string>
+    <string name="money_account_guangdongfazhan">广东发展银行</string>
+    <string name="money_account_guojiakaifa">国家开发银行</string>
+    <string name="money_account_huaxia">华夏银行</string>
+    <string name="money_account_jianshe">中国建设银行</string>
+    <string name="money_account_jiaotong">交通银行</string>
+    <string name="money_account_jinchukou">中国进出口银行</string>
+    <string name="money_account_minsheng">中国民生银行</string>
+    <string name="money_account_nongye">中国农业银行</string>
+    <string name="money_account_nongyefazhan">中国农业发展银行</string>
+    <string name="money_account_pufa">中国浦发银行</string>
+    <string name="money_account_shenzhenfazhan">深圳银行</string>
+    <string name="money_account_swift">BEASCNSH523</string>
+    <string name="money_account_xingye">兴业银行</string>
+    <string name="money_account_youzheng">中国邮政储蓄银行</string>
+    <string name="money_account_zhaoshang">中国招商银行</string>
+    <string name="money_account_zhifubao">支付宝</string>
+    <string name="money_account_we_chat">微信</string>
+    <string name="money_account_google">谷歌</string>
+    <string name="money_account_pay_pal">PayPal</string>
+    <string name="money_account_huawei">华为</string>
+    <string name="money_account_apple">苹果</string>
+    <string name="money_account_zhongguoyinhang">中国银行</string>
+    <string name="money_account_zhongxin">中信银行</string>
+    <string name="next_step">下一步</string>
+
+    <!--充值-->
+    <string name="recharge_all_money_colon">合计金额: </string>
+    <string name="recharge_account_balance">账户余额</string>
+    <string name="money_account_official">系统</string>
+    <string name="recharge_pay_now">立即支付</string>
+    <string name="recharge_select_pay_type">选择支付方式</string>
+    <string name="recharge_discounts_input">优惠%1$s</string>
+    <string name="recharge_pay_type_price_colon">实付金额: </string>
+    <string name="recharge_pay_type_order_colon_input">订单信息: %1$s</string>
+    <string name="recharge_pay_type_select">选择支付方式</string>
+    <string name="recharge_pay_type_confirm_pay">确定支付</string>
+    <string name="recharge_pay_type_google_pay">谷歌支付</string>
+    <string name="recharge_pay_type_paypal_pay">PayPal支付</string>
+    <string name="recharge_pay_type_HW">华为钱包安全支付</string>
+    <string name="recharge_pay_type_google_pay_not_support">当前设备不支持谷歌支付</string>
+
+
+    <string name="recharge_pay_type_drill">钻石充值</string>
+
+    <string name="recharge_pay_type_drill_title_100">100粉钻</string>
+    <string name="recharge_pay_type_drill_title_500">500粉钻</string>
+    <string name="recharge_pay_type_drill_title_1000">1000粉钻</string>
+    <string name="recharge_pay_type_drill_title_2000">2000粉钻</string>
+    <string name="recharge_pay_type_drill_title_5000">5000粉钻</string>
+    <string name="recharge_pay_type_drill_title_10000">10000粉钻</string>
+
+    <string name="recharge_pay_type_vip_title_1">1个月VIP</string>
+    <string name="recharge_pay_type_vip_title_3">3个月VIP</string>
+    <string name="recharge_pay_type_vip_title_12">12个月VIP</string>
+
+    <string name="recharge_pay_type_drill_body">粉钻充值%1$d颗 %2$s折</string>
+    <string name="recharge_pay_fail">支付失败</string>
+    <string name="recharge_spend_fail">消耗失败</string>
+    <string name="recharge_pay_success">支付成功</string>
+    <string name="recharge_spend_success">消耗成功</string>
+    <string name="recharge_google_process_miss_order_tip">正在处理漏单</string>
+    <string name="recharge_google_process_miss_order_tip_success">漏单处理成功</string>
+    <string name="recharge_google_error_contact_us">充值失败,订单ID已复制到剪贴板,请联系管理员</string>
+    <string name="recharge_google_order_id">订单id</string>
+    <string name="recharge_result_new_user_receive">领取</string>
+    <!--<string name="recharge_result_success_bind_phone_or_email">请绑定您的手机号/邮箱</string>-->
+    <string name="recharge_result_success_bind_phone">请绑定您的手机号</string>
+    <string name="recharge_result_success_title">为了保障您的账户安全</string>
+
+    <!--<string name="recharge_result_fail_bind_phone_or_email_get_drill">请输入手机号/邮箱领取</string>-->
+    <string name="recharge_result_fail_bind_phone_get_drill">请输入手机号领取</string>
+    <string name="recharge_result_fail_title">新用户获取100颗粉钻</string>
+    <string name="recharge_result_phone_hint">请输入手机号</string>
+    <string name="recharge_result_email_hint">请输入邮箱</string>
+    <string name="recharge_result_email_not_qualified">请输入正确的邮箱</string>
+    <string name="recharge_result_verify_code">请输入验证码</string>
+    <string name="recharge_result_success_bind_success">绑定成功</string>
+    <string name="recharge_result_fail_bind_success">领取成功</string>
+
+    <!--<string name="recharge_email">worldtalk@zerophil.com</string>-->
+    <string name="recharge_email_tip">如果您需要提现,请联系公司邮箱 %1$s</string>
+
+    <!--翻译包-->
+    <string name="mine_translate_title">我的翻译包</string>
+    <string name="mine_translate_disenabled">当前未开通翻译包</string>
+    <string name="mine_translate_7day_package_opened">已开通7天翻译包</string>
+    <string name="mine_translate_90day_package_opened">已开通90天翻译包</string>
+    <string name="mine_translate_1year_package_opened">已开通1年翻译包</string>
+    <string name="mine_translate_permanent_package_opened">已开通终身翻译包</string>
+    <string name="mine_translate_expired">已失效</string>
+    <string name="mine_translate_unlimited">不限量</string>
+    <string name="mine_translate_day">%d天翻译包</string>
+    <string name="mine_translate_year">1年翻译包</string>
+    <string name="mine_translate_forever">终身翻译包</string>
+    <string name="mine_translate_day_renew">%d天</string>
+    <string name="mine_translate_year_renew">1年</string>
+    <string name="mine_translate_forever_renew">终身</string>
+    <string name="forever">终身</string>
+    <string name="mine_translate_auto_open">打开自动翻译</string>
+    <string name="mine_translate_tip_free_out">免费翻译字符已用完</string>
+    <string name="mine_translate_tip_expired">翻译包已过期</string>
+    <string name="mine_translate_special_offer">限时特惠</string>
+    <string name="mine_translate_special_offer2">最热销</string>
+    <string name="mine_translate_special_offer3">最省钱</string>
+
+
+    <!--我的-->
+
+    <string name="me_price_today_income">今日收入</string>
+    <string name="me_price_history_income">累计收入</string>
+    <string name="me_price_total">总资产</string>
+    <string name="me_fans">粉丝  &#8194;</string>
+    <string name="me_fans_title">粉丝</string>
+    <string name="me_focus">关注  &#8194;</string>
+    <string name="me_focus_title">关注</string>
+    <string name="me_personal_signature_hint">暂时没有个性签名</string>
+    <string name="me_title">我的</string>
+    <!--<string name="me_id_input">ID:%1$s</string>-->
+    <string name="me_item_circle">我的圈子</string>
+    <string name="me_item_wallet">我的钱包</string>
+    <string name="me_item_present">我的礼物</string>
+    <string name="me_item_vip">我的会员</string>
+    <string name="me_item_translate">我的翻译包</string>
+    <string name="me_item_like">喜欢的人</string>
+    <string name="me_item_share">分享APP</string>
+    <string name="me_item_invite">邀请好友</string>
+    <string name="me_item_bind">绑定手机</string>
+    <string name="me_item_set">设置</string>
+    <string name="me_info_edit">编辑</string>
+    <string name="me_signature_input">签名：写一句话介绍自己吧</string>
+
+    <!--个人信息-->
+    <string name="personal_info_title">个人信息</string>
+    <string name="personal_info_title_other_user">详细信息</string>
+    <string name="personal_info_birthday">出生日期 : </string>
+    <string name="personal_info_age">年龄 : </string>
+    <string name="personal_info_language">语言 : </string>
+    <string name="personal_info_constellation">星座 : </string>
+    <string name="personal_info_constellation_input">请填写您的星座</string>
+    <string name="personal_info_nickname_not_null">昵称不能为空</string>
+
+
+    <string name="personal_info_address">地址 : </string>
+    <string name="personal_info_address_input">请填写您的地址</string>
+    <string name="personal_info_school">学校 : </string>
+    <string name="personal_info_nickname">昵称 : </string>
+    <string name="personal_info_school_input">请输入您毕业的学校</string>
+    <string name="personal_info_education">学历 : </string>
+    <string name="personal_info_profession">职业 : </string>
+    <string name="personal_info_profession_input">请填写您的职业</string>
+    <string name="personal_info_company">公司 : </string>
+    <string name="personal_info_company_input">请填写您的公司</string>
+    <string name="personal_info_flag">个人标签 : </string>
+    <string name="personal_info_flag_max_select">最多选择%1$d个</string>
+    <string name="personal_info_interesting">兴趣爱好 : </string>
+    <string name="personal_info_customer_flag_can_select">可选标签</string>
+    <string name="personal_info_customer_flag_selected">已选标签</string>
+    <string name="personal_info_customer_flag_title">自定义标签</string>
+
+
+    <string name="personal_info_customer_interesting_can_select">可选兴趣</string>
+    <string name="personal_info_customer_interesting_selected">已选兴趣</string>
+    <string name="personal_info_customer_interesting_title">自定义兴趣</string>
+    <!--编辑个人信息-->
+    <string name="personal_info_edit_remark_tip">签名: </string>
+    <string name="avatar_crop">图片裁剪</string>
+    <string name="personal_info_edit_signature">签名</string>
+    <!--<string name="personal_info_edit_id_input">ID: %1$s</string>-->
+
+    <string name="personal_info_education_high_school">高中</string>
+    <string name="personal_info_education_college">大专</string>
+    <string name="personal_info_education_undergraduate">本科</string>
+    <string name="personal_info_education_postgraduate">研究生</string>
+    <string name="personal_info_education_phd">博士</string>
+
+    <string name="personal_info_friend_focus">关注</string>
+    <string name="personal_info_friend_focused">已关注</string>
+    <string name="personal_info_friend_send_message">发消息</string>
+    <string name="personal_info_add_friend">+ 加好友</string>
+    <string name="personal_info_add_friend_already_send">已发送</string>
+    <string name="personal_info_add_friend_success_tip">好友申请发送成功</string>
+    <string name="personal_info_add_friend_request_throw">通过</string>
+    <string name="personal_info_add_friend_request_throw_ed">已通过</string>
+    <string name="personal_info_media">相册</string>
+
+
+    <!--系统消息-->
+    <string name="system_message_title">系统消息</string>
+    <string name="system_message_title_input">系统消息: %1$s</string>
+    <string name="system_message_detail_title">消息详情</string>
+    <string name="system_message_delete">删除</string>
+    <string name="system_message_delete_all_confirm">是否清空系统消息</string>
+
+    <!--我的礼物-->
+    <string name="my_present_title">我的礼物</string>
+    <string name="my_present_receiver">收到</string>
+    <string name="my_present_receiver_tip_chat">聊天收到礼物</string>
+    <string name="my_present_receiver_tip_circle">动态收到礼物</string>
+
+    <string name="my_present_give_tip_chat">聊天送出礼物</string>
+    <string name="my_present_give_tip_circle">动态送出礼物</string>
+    <string name="my_present_give">送出</string>
+    <!--<string name="my_present_present_count_input">%1$d X</string>-->
+
+
+    <!--邀请好友-->
+    <string name="invite_friends_title">邀请好友</string>
+    <string name="invite_friends_invite_five_user_register">邀请5位好友注册APP</string>
+    <string name="invite_friends_get_free_month_vip">免费获得一个月VIP</string>
+    <string name="invite_friends_invite_now">立即邀请好友</string>
+    <string name="invite_friends_invite_user_list">邀请好友列表(%1$d)</string>
+    <!--<string name="invite_friends_find_more">查看更多</string>-->
+    <string name="personal_info_more_media">更多</string>
+    <string name="invite_friends_find_more_title">邀请好友列表</string>
+    <string name="invite_friends_invite_flow">邀请流程</string>
+    <string name="invite_friends_invite_flow_share">分享链接\n给好友</string>
+    <string name="invite_friends_invite_flow_download">打开链接\n下载APP</string>
+    <string name="invite_friends_invite_flow_register">注册完成\n填写邀请人ID</string>
+    <string name="invite_friends_special_tip">特别说明：新好友是指之前未登录过WorldTalk的用户,需在手机上注册成功,方可获得奖励。</string>
+
+    <!--系统通知-->
+    <string name="system_notice_match_success">@string/chat_message_match_success_input</string>
+    <string name="system_notice_withdraw_record">尊敬的%1$s用户名%2$s，你已成功提现%3$s $/￥，请注意查收</string>
+
+    <!-- 视频通话 -->
+    <string name="video_call_calling_in">对方邀请您视频通话&#8230;</string>
+    <string name="video_call_calling_out">等待对方接受邀请&#8230;</string>
+    <string name="video_call_chat_time">已通话%1$s:%2$s:%3$s</string>
+    <string name="video_call_trans_dialog_title">视频翻译</string>
+    <string name="video_call_trans_dialog_content">视频翻译每分钟需消耗%1$d*</string>
+    <string name="video_call_trans_dialog_charge">充值</string>
+
+    <string name="video_call_toast_reject">对方拒绝了你的视频通话要求</string>
+    <string name="video_call_toast_accept">对方已接听</string>
+    <string name="video_call_order_no_error">订单号异常</string>
+    <string name="video_call_last_time">剩余翻译%1$d分钟</string>
+
+    <!--二维码扫描-->
+    <string name="qr_code_scan_title">扫一扫</string>
+    <string name="qr_code_plz_input_requirements">请扫描正确的二维码</string>
+    <string name="qr_code_title_my_qr_code">我的二维码</string>
+    <string name="qr_code_account_error">账号异常</string>
+
+    <!--设置-->
+    <string name="setting_title">设置</string>
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_about_me">关于我</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_change_language">我的语言</string>
+    <string name="setting_change_language_local">软件语言</string>
+    <string name="setting_feed_back">用户反馈</string>
+    <!--<string name="setting_feed_back_email">zero@zerophil.com</string>-->
+    <string name="setting_feed_back_email_copy">已复制到剪贴板</string>
+    <string name="setting_logout">退出登录</string>
+    <string name="setting_phone_number">手机</string>
+    <string name="setting_open_message_push">您还未开启“消息提醒”功能，开启后您将获得专属的通知服务，请"设置"中找到WorldTalk配置。</string>
+
+    <!--关于我们-->
+    <string name="about_us_current_version">当前版本</string>
+    <!--<string name="about_us_current_version_input">V%1$s</string>-->
+    <string name="about_us_customer_email_tip">客服邮箱</string>
+    <!--<string name="about_us_customer_email">@string/setting_feed_back_email</string>-->
+    <string name="about_us_we_chat_account_tip">微信公众号</string>
+    <string name="about_us_we_chat_account_search">微信搜索“WorldTalk国际社交”</string>
+    <!--<string name="about_us_we_chat_account">WorldTalk</string>-->
+
+    <!-- 举报 -->
+    <string name="report_user">举报此人</string>
+    <string name="report_moments">举报这条动态</string>
+    <string name="report_no_talk_id">ID异常</string>
+    <string name="report_select_reason">选择举报原因</string>
+    <string name="report_publish_invalid_msg">发布色情-违规等不良信息</string>
+    <string name="report_cheat_money">欺诈骗钱行为</string>
+    <string name="report_annoy_me">对我进行骚扰</string>
+    <string name="report_upload_image">上传证明材料</string>
+    <string name="report_description">内容描述</string>
+    <string name="report_please_input_content">请输入内容描述</string>
+    <string name="report_upload_failed">图片上传失败 %1$s</string>
+    <string name="report_commit_finished">提交成功</string>
+    <string name="report_reason_sex">色情低俗</string>
+    <string name="report_reason_polity">政治敏感</string>
+    <string name="report_reason_vice">违法暴力</string>
+    <string name="report_reason_invalid_product">违禁品</string>
+    <string name="report_reason_gamble">赌博</string>
+    <string name="report_reason_self_break">自杀自残</string>
+    <string name="report_reason_blood">血腥暴力</string>
+    <string name="report_reason_violate_private_info">侵犯个人信息</string>
+    <string name="report_reason_other_invalid">其他违法行为</string>
+    <string name="report_reason_money">金融诈骗</string>
+    <string name="report_reason_part_time">兼职诈骗</string>
+    <string name="report_reason_other_cheat">其他诈骗</string>
+    <string name="report_reason_ad">广告骚扰</string>
+    <string name="report_reason_abuse">侮辱谩骂</string>
+    <string name="report_reason_other_annoy">其他骚扰</string>
+    <string name="report_success">举报成功</string>
+    <string name="report_fail">举报失败</string>
+
+    <!--修改密码-->
+    <string name="change_password_title">修改密码</string>
+    <string name="change_password_old">旧密码</string>
+    <string name="change_password_old_hint">若包含字母，请注意区分大小写</string>
+    <string name="change_password_new">新密码</string>
+    <string name="change_password_success">密码修改成功</string>
+    <string name="change_password_show_password">显示密码</string>
+
+    <!--分享-->
+    <string name="share_invite">邀请好友</string>
+    <string name="share_title">分享</string>
+    <string name="share_moments">动态分享</string>
+    <string name="share_moments_title_input">分享 %1$s 的%2$s动态</string>
+    <string name="share_cancel">取消</string>
+    <string name="share_face_book">Facebook</string>
+    <string name="share_twitter">Twitter</string>
+    <string name="share_we_chat">微信</string>
+    <string name="share_copy_url">复制链接</string>
+    <string name="share_wei_bo">微博</string>
+    <string name="share_we_chat_circle">朋友圈</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_report">举报</string>
+    <string name="share_un_focus">取消关注</string>
+    <string name="share_focus">关注</string>
+    <string name="share_invite_content">加入WorldTalk与德国帅哥，美国辣妹、韩国欧巴、日本萌妹、乌克兰美女聊天吧</string>
+    <!--<string name="share_invite_url">https://www.worldtalk.link/master/demo/share2.html?id=%1$s&amp;language=%2$s</string>-->
+
+    <!-- 我的会员 -->
+    <!--<string name="my_vip_card_no">VIP</string>-->
+    <string name="my_vip_card_month">%1$d个月</string>
+    <string name="my_vip_card_valid_date">会员有效日期：%1$s-%2$s</string>
+    <string name="my_vip_button_get">获取VIP</string>
+    <string name="my_vip_button_renew">VIP续费</string>
+
+    <!-- 版本更新 -->
+    <string name="update_new_version_publish">最新版本%1$s已经发布啦，超好用的哟！</string>
+    <string name="update_find_new_version">发现新版本</string>
+    <!--<string name="update_version_name_lowercase">v%1$s</string>-->
+    <!--<string name="update_version_name_uppercase">V%1$s</string>-->
+    <string name="update_now">立即更新</string>
+    <string name="update">更新</string>
+    <string name="update_update_start">开始更新</string>
+    <string name="update_jump_google_error">未安装谷歌应用商店或浏览器</string>
+    <string name="update_download_url_error">下载链接异常</string>
+    <string name="update_install_path_error">安装文件路径错误</string>
+    <!--<string name="update_notification_title">WorldTalk %1$s</string>-->
+    <string name="update_notification_text">更新中…</string>
+
+    <!--代理-->
+    <string name="proxy_tip">请先关闭代理</string>
+    <string name="proxy_tip_wifi">请先关闭WIFI代理</string>
+    <!--逆向-->
+    <string name="revert_not_safe">当前是非安全环境</string>
+
+    <!-- 权限 -->
+    <string name="pms_rationale">权限</string>
+    <!--<string name="pms_name_wrapper">「%1$s」</string>-->
+    <string name="pms_name_read_phone_state">电话</string>
+    <string name="pms_name_record_audio">麦克风</string>
+    <string name="pms_name_camera">相机</string>
+    <string name="pms_name_write_external_storage">存储</string>
+    <string name="pms_name_read_external_storage">存储</string>
+    <string name="pms_name_access_fine_location">定位</string>
+    <string name="pms_name_access_coarse_location">定位</string>
+    <string name="pms_rationale_read_phone_state">%1$s权限保证设备唯一</string>
+    <string name="pms_rationale_record_audio">%1$s权限用于视频录音</string>
+    <string name="pms_rationale_camera">%1$s权限用于拍照或视频录制</string>
+    <string name="pms_rationale_write_external_storage">%1$s权限用于保存文件</string>
+    <string name="pms_rationale_read_external_storage">%1$s权限用于读取相册</string>
+    <string name="pms_rationale_access_fine_location">%1$s 您的位置将用于获取所在地的附近信息，帮助您与附近的人更方便的沟通交流。</string>
+    <string name="pms_denied">请在设置中开启\n%1$s权限</string>
+
+
+    <!--审核-->
+    <string name="review_result_fix_icon_nickname_title">修改头像</string>
+    <string name="review_result_fix_icon_nickname_tip">审核未通过,请重新上传头像</string>
+    <string name="review_result_hint_nickname">请输入昵称</string>
+    <string name="review_result_icon_nickname_not_null">头像不能为空</string>
+
+    <!--封禁-->
+    <string name="banned_result_has_date">你因违规操作被封禁至%1$s，请遵守WorldTalk相关规定</string>
+
+    <string name="banned_result_permanent">你因违规操作被永久封禁，请遵守WorldTalk相关规定</string>
+
+
+    <!--常用dialog-->
+    <string name="common_dialog_title_tip">提示</string>
+    <string name="common_dialog_phone_registered">该账号已注册</string>
+    <string name="common_dialog_phone_registered_positive">登录</string>
+    <string name="common_dialog_phone_registered_negative">知道了</string>
+
+
+    <!--星座-->
+    <string name="constellation_0">水瓶座</string>
+    <string name="constellation_1">双鱼座</string>
+    <string name="constellation_2">牡羊座</string>
+    <string name="constellation_3">金牛座</string>
+    <string name="constellation_4">双子座</string>
+    <string name="constellation_5">巨蟹座</string>
+    <string name="constellation_6">狮子座</string>
+    <string name="constellation_7">处女座</string>
+    <string name="constellation_8">天秤座</string>
+    <string name="constellation_9">天蝎座</string>
+    <string name="constellation_10">射手座</string>
+    <string name="constellation_11">摩羯座</string>
+
+    <!--聊天时间-->
+    <string name="now">现在</string>
+    <string name="other_hour_ago">%1$d小时前</string>
+    <string name="other_minute_ago">%1$d分钟前</string>
+
+    <string name="wechat_recharge_please_wait_moments">微信充值有延迟,请稍等片刻</string>
+
+    <string name="back_service">消息服务正在运行</string>
+
+    <!-- 视频通话消息 -->
+    <string name="chat_video_hangup">通话时长%1$s</string>
+    <string name="chat_video_cancel">已取消</string>
+    <string name="chat_video_cancel_opposite">对方已取消</string>
+    <string name="chat_video_reject">已拒绝</string>
+    <string name="chat_video_reject_opposite">对方已拒绝</string>
+    <string name="chat_video_timeout">未接听</string>
+    <string name="chat_video_timeout_opposite">对方未接听</string>
+    <string name="chat_video_busy">占线</string>
+
+    <!-- 用户反馈 -->
+    <!--<string name="feedback_success"></string>-->
+    <string name="feedback_input_hint">请简要描述您的问题或建议</string>
+    <string name="feedback_connection">欢迎加入我们一起交流</string>
+    <string name="feedback_qq_text">WorldTalk官方QQ群: %1$s</string>
+    <string name="feedback_id_text">WorldTalk官方ID: %1$s</string>
+    <string name="feedback_email_text">WorldTalk官方邮箱: %1$s</string>
+    <!--<string name="feedback_qq_value"></string>-->
+    <!--<string name="feedback_id_value"></string>-->
+    <!--<string name="feedback_email"></string>-->
+
+    <!-- 上传高清图 -->
+    <string name="upload_photo">上传照片</string>
+    <string name="upload_hd_photo_hint">请上传个人真实照片</string>
+
+    <!-- 语音识别不支持语言 -->
+    <string name="speech_recognize_not_support_language">不支持当前语言</string>
+
+    <!-- 存储媒体 -->
+    <string name="create_media_path_error">无法创建存储空间</string>
+    <string name="preview">预览</string>
+    <string name="video_saving">正在保存视频</string>
+
+
+    <!-- 黑名单 -->
+    <string name="black_list">黑名单</string>
+    <string name="black_list_remove">解除</string>
+    <string name="black_list_create_date">%1$s加入黑名单</string>
+
+    <!--动态消息-->
+    <string name="circle_message_replay">回复</string>
+    <string name="circle_message_translate">翻译</string>
+    <string name="circle_message_see_origin">原文</string>
+    <string name="circle_message_old">更早通知</string>
+    <string name="circle_message_clear_all">是否要清空所有数据?</string>
+    <string name="circle_message_clear_reward">是否要清空打赏数据?</string>
+    <string name="circle_message_clear_comment">是否要清空评论数据?</string>
+    <string name="circle_message_clear_like">是否要清空点赞数据?</string>
+    <string name="personal_info_say_hi">发消息</string>
+    <string name="personal_one_day_unlimited_say_hi_tip">今日免费次数已用完</string>
+
+    <string name="rcv_load_error_check_net">请检查网络连接是否正常</string>
+    <string name="rcv_load_error_reload">重新加载</string>
+    <string name="select">选择</string>
+    <string name="select_all">全选</string>
+    <string name="chat_my_friends_request_send_success">好友请求发送成功</string>
+    <string name="moments_new">现在</string>
+
+    <!--图形验证码-->
+    <string name="verify_code_cancel">取消</string>
+    <string name="verify_code_enter_code_plz">请输入图形验证码</string>
+    <string name="verify_code_determine">确定</string>
+
+    <!--真人认证-->
+    <string name="person_auth_get_tips">获取真人认证勋章～</string>
+    <string name="person_auth_des">认证头像</string>
+    <string name="person_auth_result_tips">非本人头像会认证失败</string>
+    <string name="person_auth_advantage1">专属标志</string>
+    <string name="person_auth_advantage2">更多关注</string>
+    <string name="person_auth_advantage3">优先推荐</string>
+    <string name="person_auth_auth_now">立即认证</string>
+    <string name="person_auth_state_authing">认证中</string>
+    <string name="person_auth_state_authed">已认证</string>
+    <string name="register_face_auth_tip">请参照下图拍摄相同手势照片</string>
+    <string name="person_auth_failture_tips">认证失败，请重新认证</string>
+    <string name="person_auth_succeed_tips">您已通过真人头像认证，获得“真人头像徽章”</string>
+    <string name="person_auth_failed_tips">真遗憾，您认证的头像与拍摄的手势照不一致，请重新认证</string>
+
+    <!--注销账号-->
+    <string name="me_us_logout">账号注销</string>
+    <string name="logout_reason_please">您要注销的原因</string>
+    <string name="logout_reason1">广告多</string>
+    <string name="logout_reason3">软件卡顿</string>
+    <string name="logout_reason5">用户素质低</string>
+    <string name="logout_reason6">功能少</string>
+    <string name="logout_reason2">内容无价值</string>
+    <string name="logout_reason4">有BUG</string>
+    <string name="logout_after">注销后</string>
+    <string name="logout_after_result">您的账号信息将清空，无法登录</string>
+    <string name="logout_logged_out">该用户已注销</string>
+
+    <!--主播视频-->
+    <string name="home_tab_video">视频</string>
+    <string name="wallet_recharge_red">粉钻充值</string>
+    <string name="wallet_recharge_blue">蓝钻充值</string>
+    <string name="wallet_mine_balance">我的余额</string>
+    <string name="wallet_mine_income">我的收益</string>
+    <string name="wallet_current_balance">当前余额</string>
+    <string name="income_detail_start_time">开始时间</string>
+    <string name="income_detail_end_time">结束时间</string>
+    <string name="income_detail_duration">时长</string>
+    <string name="income_detail_gift_value">礼物价值</string>
+    <string name="income_detail_pink_diamond">粉钻</string>
+    <string name="income_detail_blue_diamond">蓝钻</string>
+    <string name="video_call_report_user">举报该用户</string>
+    <string name="video_call_no_3minutes">余额不足3分钟</string>
+    <string name="video_call_per_minute">分钟</string>
+    <string name="video_call_click_start_tips">点击图标直接发起视频聊天</string>
+    <string name="video_call_start_chat">发起视频聊天</string>
+    <string name="me_income_record">收益明细</string>
+    <string name="my_present_receive_video_tip">视频收到礼物</string>
+    <string name="my_present_give_video_tip">视频送出礼物</string>
+    <string name="video_call_duration">通话时长</string>
+    <string name="video_call_gift_value">礼物价值</string>
+    <string name="video_float_start_work">开启接单模式</string>
+    <string name="chat_notify">转移到第三方平台聊天，转账汇款，礼物邮寄，赌博，投资理财请提高警惕；遇到冒充军人、警察、军医、维和人员、苹果工程师等行为存在诈骗风险，请及时举报</string>
+
+    <!--    2.0版收益明细-->
+    <string name="income_details_text_chat">文字聊天</string>
+    <string name="income_details_video_chat">视频聊天</string>
+    <string name="income_details_time_filter">时间筛选</string>
+    <string name="income_details_total_video">视频累计：%s</string>
+    <string name="income_details_total_dia_pink">粉钻累计：%s</string>
+    <string name="income_details_total_dia_blue">蓝钻累计：%s</string>
+    <string name="income_details_total_video_tips">视频累计：</string>
+    <string name="income_details_total_dia_pink_tips">粉钻累计：</string>
+    <string name="income_details_total_dia_blue_tips">蓝钻累计：</string>
+    <string name="income_details_select_time">选择时间</string>
+
+    <!--翻译包续费-->
+    <string name="mine_translation_renew_week">连续包周</string>
+    <string name="mine_translation_renew_month">连续包月</string>
+    <string name="mine_translation_renew_year">连续包年</string>
+    <string name="translation_service_agreement">翻译包服务协议</string>
+    <string name="automatic_renew_agreement">自动续费协议</string>
+    <string name="mine_translation_renew_tips">1.服务到期后自动续费\n2.要停止订阅，请在下一个扣费日期之前在“设置-华为账号-付费与账单-自动扣费/免密支付”中取消</string>
+
+    <string name="banned_ban_tips">你的账号因违规已被封禁\n解封日期：%s</string>
+    <string name="banned_state_permanent">你的账号因违规已被永久封禁</string>
+    <string name="banned_ban_state">申诉</string>
+    <string name="banned_appeal_input_tips">请简述申诉理由</string>
+    <string name="banned_two_opportunies">您有两次申诉机会</string>
+    <string name="banned_two_work_day_email">申诉结果会在2个工作日内发送至app站内信</string>
+    <string name="banned_unlock_tips">你的账号已于%s解封，请自觉规范交友行为，创建良好交流氛围</string>
+    <string name="have_commited">已提交</string>
+    <string name="banned_ban_processing">申诉处理中</string>
+    <string name="banned_ban_not_processed">申诉未通过</string>
+    <string name="have_reported">已举报</string>
+    <string name="add_friend_to_unlock">成为对方好友解锁该功能</string>
+    <string name="please_enter_new_phone">请输入新手机号</string>
+    <string name="say_hi_free_out_tips">今天免费次数已用完\n继续SayHi将消耗粉钻</string>
+    <string name="ad_title">广告合作</string>
+    <string name="change_succeed">更换成功</string>
+    <string name="replace_phone_binded">手机号已被绑定</string>
+    <string name="report_please_upload_image">请上传1-6张完整的聊天截图</string>
+    <string name="enter_at_least_15_words">请输入至少15个字</string>
+    <string name="banned_temporarily_others">该用户因违规已被暂时封禁</string>
+    <string name="banned_permanent_others">该用户因违规已被永久封禁</string>
+    <string name="click_here_to_add_friend">点击此处加对方为好友</string>
+    <string name="setting_voice_prompt">声音提示</string>
+    <string name="setting_voice_enable">声音已开启</string>
+    <string name="setting_voice_unenable">声音已关闭</string>
+    <string name="change_phone_succeed">更换成功</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+
+    <!--我的 新界面-->
+    <string name="me_wallet">钱包</string>
+    <string name="me_gift">礼物</string>
+    <string name="me_member">会员</string>
+    <string name="me_tanslation">翻译包</string>
+    <string name="me_view_income_records">查看收益记录</string>
+    <string name="me_view_account_balance">查看账户余额</string>
+    <string name="me_my_assets">我的资产</string>
+    <string name="me_balance">余额</string>
+    <string name="me_details">明细</string>
+    <string name="me_recharge_details">充值明细</string>
+    <string name="me_consumer_details">消费明细</string>
+    <string name="me_my_service">我的服务</string>
+
+
+    <string name="emotion_make_up">整理</string>
+    <string name="move_emotion_to_first">移至最前</string>
+    <string name="add_emotion">添加表情</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="home_age">年龄</string>
+    <string name="has_clear_cache">已清除</string>
+    <string name="first_review_auto_publish">审核中，通过后自动发布</string>
+    <string name="login_emal_title">邮箱登录</string>
+    <string name="register_account_title">注册账号</string>
+    <string name="register_phone_num">手机号</string>
+    <string name="register_set_head_portrait">设置头像</string>
+    <string name="bind_phone_num_title">绑定手机号</string>
+    <string name="set_new_pwd_title">设置新密码</string>
+    <string name="add_emotion_has_equal_max_num">添加失败，表情数量已达上限</string>
+    <string name="complete_info_tips">国籍/地区和性别提交后不可修改，请使用真实资料</string>
+    <string name="chat_requet_add_friend_man">对方请求添加你为好友</string>
+    <string name="chat_requet_add_friend_woman">对方请求添加你为好友</string>
+    <string name="agree_add_friend">同意</string>
+    <string name="pwd_login">密码登录</string>
+    <string name="vercode_login">验证码登录</string>
+    <string name="register">注册</string>
+    <string name="summary_emotion">动画表情</string>
+    <string name="make_other_in_black">拉黑对方</string>
+    <string name="has_block_other">请先在“设置-黑名单”内解除拉黑</string>
+    <string name="has_added">已添加</string>
+    <string name="under_review">审核中</string>
+
+
+    <string name="high_quality_user">优质用户</string>
+    <string name="emotion_pouring_title">情感倾诉</string>
+    <string name="has_over">已结束</string>
+    <string name="chat_type_option_chat_audio">语音聊天</string>
+    <string name="chat_type_option_chat_video">视频聊天</string>
+    <string name="summary_audio_call">语音通话</string>
+    <string name="chat_type_option_chat_world">文字聊天</string>
+    <string name="add_time_title">续时</string>
+    <string name="add_time_now_title">立即续时</string>
+    <string name="audio_accumulation">语音累计</string>
+    <string name="buy_emotion_pouring_success">购买%d分钟情感倾诉成功</string>
+    <string name="other_one_buy_you_emotion_pouring_success">对方已购买%d分钟聊天时长</string>
+    <string name="renew_emotion_pouring_success">续费%d分钟情感倾诉成功</string>
+    <string name="other_one_renew_you_emotion_pouring_success">对方已续费%d分钟聊天时长</string>
+    <string name="chat_audio_call_in_hint">对方邀请您语音通话</string>
+    <string name="other_has_been_your_friends">对方已是您好友</string>
+    <string name="nomal_gift">普通礼物</string>
+    <string name="recommend_home_tab">推荐</string>
+    <string name="income_total_time">时长累计：</string>
+    <string name="chat_becom_friend_get_more_function">成为好友解锁更多功能</string>
+    <string name="chat_add_friend">添加好友</string>
+
+    <string name="every_min">/分钟</string>
+
+
+    <string name="publish_success_will_in_review">发布成功，审核通过后才会显示</string>
+    <string name="publishing_please_wait">动态发布中，请稍等</string>
+    <string name="save_cur_edit">保留此次编辑？</string>
+    <string name="save_content">保留</string>
+    <string name="not_save_content">不保留</string>
+    <string name="open_vip">开通</string>
+    <string name="continue_vip">续费</string>
+    <string name="has_not_open_vip">暂未开通会员</string>
+    <string name="vip_member">尊贵会员</string>
+    <string name="vip_function">会员专属特权</string>
+    <string name="sending">发送中</string>
+    <string name="send_failed">发送失败</string>
+    <string name="view_repaly">查看回复</string>
+    <string name="all_repaly">全部回复</string>
+    <string name="add_replay">添加回复</string>
+    <string name="double_click_auto_trans">双击评论内容可自动翻译</string>
+    <string name="connecting">通话连接中...</string>
+    <string name="foot_print_title">好友足迹</string>
+    <string name="show_all">展开全部</string>
+    <string name="compress_all">收起</string>
+    <string name="of_foot_print">的跨国足迹</string>
+    <string name="vip_to_date">有效期至</string>
+    <string name="become_friend_light_foot_print_map">加好友点亮地图！</string>
+    <string name="cur_phone_num_title">当前手机号：</string>
+    <string name="shared_to_title">分享到</string>
+    <string name="please_edit_school_name">请填写您的学校</string>
+    <string name="please_edit_job_name">请填写您的职业</string>
+    <string name="please_edit_degree_name">请选择学历</string>
+    <string name="world_with_trans_fun_app">全球陌生人实时翻译社交APP</string>
+    <string name="um_skd_tips">为了提供分享功能，我们的产品集成友盟+SDK，SDK将采集您的设备标识和您需要分享的社交账户。</string>
+    <string name="translate_please_select">请选择</string>
+
+
+    <string name="comment_has_deleted">评论违规，已删除！</string>
+    <string name="vip_say_hi">Say hi列表</string>
+    <string name="report_success_new">举报成功，我们将尽快受理你的投诉</string>
+    <string name="search_and_add_friends">查找和添加好友</string>
+    <string name="remove_fans_dialog_title">删除粉丝</string>
+    <string name="noShieldSuccess">取消屏蔽成功</string>
+    <string name="shieldSuccess">屏蔽成功</string>
+    <string name="vip_say_hi_detail">找回所爱，无惧流逝</string>
+    <string name="cant_shared_title">暂时无法分享</string>
+    <string name="circle_tab_popular">精华</string>
+
+
+    <string name="watch_video_title">观看视频</string>
+    <string name="open_vip_or_watch_video_get_light_times">开通VIP可获得爆灯次数，也可以观看视频获得爆灯机会</string>
+    <string name="open_vip_or_watch_video_get_undo_times">开通VIP错滑无限反悔，也可观看视频获得反悔次数</string>
+    <string name="open_vip_or_watch_video_get_un_limit_like_times">开通VIP可无限次喜欢，也可以观看视频获得喜欢次数</string>
+    <string name="msg_see_video_title">免费曝光</string>
+    <string name="open_vip_or_watch_video_get_one_unlock_like_times">开通VIP即可解锁“喜欢我”列表，也可以观看视频免费解锁1次</string>
+    <string name="has_not_see_video">您还未观看视频，无法提交申诉信息~</string>
+    <string name="appeal_step_one">第一步：请填写申诉理由</string>
+    <string name="appeal_step_two">第二步：观看视频</string>
+    <string name="user_logout_give_tips">感谢您对WorldTalk软件提出的宝贵意见，祝您生活愉快！谢谢</string>
+    <string name="logout_success">注销成功</string>
+    <string name="click_light_let_more_people_see_you">点击曝光让更多人看到你！</string>
+    <string name="open_vip_title">开通VIP</string>
+    <string name="third_divider">第三方注册</string>
+    <string name="phone_divider">手机号注册</string>
+
+    <string name="other_phone_login">其他号码登录</string>
+    <string name="one_key_login">一键登录</string>
+    <string name="more_login_ways"> — 更多登录方式 — </string>
+    <string name="forget_pwd_feedback">请输入您要反馈的问题，并留下你的邮箱，以便后续联系。你也可以给WorldTalk官方邮箱反馈问题</string>
+    <string name="feedback_length_min_words_tips">反馈内容最少输入5个字符</string>
+    <string name="feedback_length_max_words_tips">反馈内容最多输入500个字符</string>
+    <string name="chat_type_sayhi">Say hi足迹</string>
+
+    <string name="me_item_chatter">成为聊主</string>
+    <string name="become_chatter_top_title">WorldTalk聊主招募令</string>
+    <string name="becom_chatter_top_tips1">纯聊天 工作时间自由</string>
+    <string name="becom_chatter_top_tips2">随时随地畅聊不停</string>
+    <string name="becom_chatter_top_tips3">线上手机聊天，在家即可</string>
+    <string name="becom_chatter_top_tips4">有兴趣快快报名吧！</string>
+    <string name="application_progress_title">申请进度</string>
+    <string name="application_progress_tips">完成资料认证并通过，就可以成为我们的认证聊主啦！</string>
+    <string name="real_name_auth">实名认证</string>
+    <string name="data_check">资料审核</string>
+    <string name="auth_success">认证成功</string>
+    <string name="apply_tobe_chatter">申请成为聊主</string>
+    <string name="applying">申请中</string>
+    <string name="apply_be_chatter_failed">聊主申请失败</string>
+    <string name="become_chatter_reason1">原因：头像违规，请调整后再次申请！</string>
+    <string name="become_chatter_reason2">原因：照片模糊，无法识别，请调整后再次申请！</string>
+    <string name="reapply">重新申请</string>
+    <string name="offical_wechat_title">客服微信</string>
+    <string name="qq_num_title">QQ群号码</string>
+    <string name="delete_chatter">删除聊主身份</string>
+    <string name="delete_chatter_tips">删除后将无法接单，请谨慎选择</string>
+    <string name="delete_chatter_sure">确认删除</string>
+    <string name="chatter_permission_applicaion">聊主权限申请</string>
+    <string name="auth_bill">认证费</string>
+    <string name="become_chatter_will_pay_bill">成为聊主需支付</string>
+    <string name="your_contact_title">您的联系方式</string>
+    <string name="feedback_content_title">反馈内容</string>
+    <string name="input_your_emil">请输入您的邮箱</string>
+    <string name="warning_title">警告</string>
+    <string name="your_account_has_problem">您的账号出现违规问题，请规范使用，否则将会采取封号处理。</string>
+    <string name="chatter_need_know">聊主需知</string>
+    <string name="chatter_apply_bill">聊主申请费用</string>
+
+    <string name="tips_click_tobe_chatter">点击“成为聊主”加入聊天大师的行列吧</string>
+    <string name="delete_chatter_and_delete_data">删除后，收益将会清零，且无法再获得聊主资格！</string>
+    <string name="become_chatter_reason01">原因：头像与性别不符，请调整后再次申请！</string>
+    <string name="become_chatter_reason02">原因：请使用真人头像，请调整后再次申请！</string>
+
+    <string name="chatter_know_1">1.什么是聊主？</string>
+    <string name="chatter_know_1_des">聊主可以在APP内赚钱，而普通用户不可以赚钱。</string>
+    <string name="chatter_know_2">2.聊主怎么赚钱？</string>
+    <string name="chatter_know_2_des">通过视频聊天、语音聊天、文字聊天、礼物来获得收益。</string>
+    <string name="chatter_know_3">3.如何查看收益？</string>
+    <string name="chatter_know_3_des">点击“收益明细”可以看到每天的收益明细。</string>
+    <string name="chatter_know_4">4.推荐按钮</string>
+    <string name="chatter_know_4_des">开启后你将被推荐给更多人看到，关闭后你不会被推荐。</string>
+    <string name="chatter_know_5">5.角色切换</string>
+    <string name="chatter_know_5_des">聊主身份与普通用户身份切换，当切换为普通用户将无法获得收益。</string>
+    <string name="input_id_or_name">输入ID或昵称</string>
+    <string name="close_chatter_tips">关闭后则无法继续获得收益，之前的收益不受影响</string>
+    <string name="has_lock_more_function">已解锁图片、语音、视频功能！</string>
+    <string name="has_into_recharge_chat_mode_tips">已进入付费聊天时间，每发1条消息，需支付%d蓝钻。</string>
+    <string name="gain_revenue">获取收益</string>
+    <string name="cost">花费</string>
+    <string name="all_msg_count">总消息数：</string>
+    <string name="msg_count">消息数</string>
+    <string name="receive_other_msg_can_lock_cur_fun">收到对方%d条消息后才可解锁此功能</string>
+    <string name="anchor_chat_notice_video_des">对方也是聊主，发起视频需要你支付费用哦</string>
+    <string name="anchor_chat_notice_audio_des">对方也是聊主，发起语音需要你支付费用哦</string>
+    <string name="gift_revenue">礼物收益</string>
+    <string name="anchor_chat_notice_title">告知</string>
+    <string name="all_income">收益累计：</string>
+    <string name="total_all_income">总收益累计：</string>
+    <string name="setting_change_chatter">聊主身份</string>
+    <string name="close_chatter">关闭聊主身份</string>
+    <string name="chatter_introduce">聊主介绍</string>
+    <string name="anchor_chat_notice_go">仍要发起</string>
+    <string name="grap_chat_title">抢</string>
+
+    <string name="grap_chat_wait_tips">有新视频订单，赶快抢！</string>
+    <string name="cant_grap_chat_please_go_on">手太慢，订单已被别人抢走！</string>
+    <string name="cant_grap_chatter_is_busy">聊主正在开小差，请稍后再次发起！</string>
+    <string name="grap_chat_connecting">正在接通中...</string>
+    <string name="wait_other_accept_hint">等待对方接听...</string>
+    <string name="grap_chat_connect_error">连接失败！</string>
+    <string name="not_open_permission">暂不开启</string>
+    <string name="open_permission">现在去开启</string>
+    <string name="need_open_float_permission">你需要开启悬浮框权限，才能正常接到“闪聊”订单，赚到更多收益！</string>
+
+    <string name="cur_chat_your_cast">本次通话你花费</string>
+    <string name="cur_chat_your_get_gift">本次礼物收入</string>
+    <string name="cur_chat_your_get_money">本次通话你收入</string>
+
+    <string name="cur_world_chat_you_cost">本条文字聊天你花费</string>
+    <string name="cur_world_chat_you_get_money">本条文字聊天你收入</string>
+    <string name="cur_gift_cost">花费</string>
+    <string name="cur_gift_get_money">获得礼物收益</string>
+    <string name="fast_chat_title">闪聊</string>
+    <string name="match_real_person_tips">真人匹配，一键嗨聊</string>
+    <string name="all_country">全球</string>
+    <string name="china">中国</string>
+    <string name="person">人</string>
+    <string name="cur_join_person_num">当前参与人数</string>
+    <string name="grap_country">国籍</string>
+
+    <string name="setting_push_setting">个性化推荐设置</string>
+    <string name="setting_use_push">使用个性化推荐</string>
+    <string name="setting_push_des">关闭后将无法收到个性化推荐，如果希望获得更符合您喜好的推荐，建议保持开启。</string>
+    <string name="pms_rationale_access_coarse_location">@string/pms_rationale_access_fine_location</string>
+    <string name="pms_name_wrapper">「%1$s」</string>
+
+
+</resources>

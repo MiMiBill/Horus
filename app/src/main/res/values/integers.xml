@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 加载进度淡入淡出动画-->
+    <integer name="progress_dialog_anim_duration_scale">60</integer>
+    <integer name="progress_dialog_anim_duration_alpha">100</integer>
+    <integer name="progress_dialog_duration">200</integer>
+
+    <!-- 密码最大位数 -->
+    <integer name="login_password_max_length">16</integer>
+    <!-- 验证码最大位数 -->
+    <integer name="verify_code_max_length">6</integer>
+
+    <!-- 昵称字符数 -->
+    <integer name="nicky_name_max_length">20</integer>
+
+    <!--动态默认显示5行-->
+    <integer name="circle_max_collapsed_lines">5</integer>
+    <!--评论默认显示2行-->
+    <integer name="circle_max_collapsed_lines_comment">2</integer>
+</resources>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--我的钱包-下面的四个功能-->
+    <string-array name="wallet_extra_features_title">
+        <item>@string/wallet_withdraw</item>
+        <item>@string/wallet_recharge</item>
+        <item>@string/wallet_withdraw_record</item>
+        <item>@string/wallet_recharge_record</item>
+    </string-array>
+
+    <!--今日收益-->
+    <string-array name="wallet_today_income">
+        <item>@string/wallet_today_income_private_photo</item>
+        <item>@string/wallet_today_income_moments_circle</item>
+        <item>@string/wallet_today_income_chat</item>
+    </string-array>
+
+
+    <!--银行卡 列表-->
+    <string-array name="bank_list">
+        <item>@string/money_account_gongshang</item>
+        <item>@string/money_account_zhaoshang</item>
+        <item>@string/money_account_nongye</item>
+        <item>@string/money_account_jianshe</item>
+        <item>@string/money_account_zhongguoyinhang</item>
+        <item>@string/money_account_minsheng</item>
+        <item>@string/money_account_guangda</item>
+        <item>@string/money_account_zhongxin</item>
+        <item>@string/money_account_jiaotong</item>
+        <item>@string/money_account_xingye</item>
+        <item>@string/money_account_pufa</item>
+        <item>@string/money_account_huaxia</item>
+        <item>@string/money_account_shenzhenfazhan</item>
+        <item>@string/money_account_guangdongfazhan</item>
+        <item>@string/money_account_guojiakaifa</item>
+        <item>@string/money_account_youzheng</item>
+        <item>@string/money_account_jinchukou</item>
+        <item>@string/money_account_nongyefazhan</item>
+    </string-array>
+
+
+    <string-array name="me_list">
+        <item>@string/me_item_circle</item>
+        <item>@string/me_item_wallet</item>
+        <item>@string/me_item_present</item>
+        <item>@string/me_item_vip</item>
+        <item>@string/me_item_like</item>
+        <item>@string/me_item_invite</item>
+        <item>@string/me_item_bind</item>
+        <item>@string/me_item_set</item>
+    </string-array>
+
+    <string-array name="setting_list">
+        <item>@string/setting_change_password</item>
+        <item>@string/bind_tab_email</item>
+        <item>@string/black_list</item>
+        <item>@string/me_us_logout</item>
+        <item>@string/setting_change_language_local</item>
+        <item>@string/setting_change_language</item>
+        <item>@string/setting_change_chatter</item>
+        <item>@string/setting_voice_prompt</item>
+        <item>@string/setting_about_us</item>
+        <item>@string/setting_feed_back</item>
+        <item>@string/setting_push_setting</item>
+        <item>@string/setting_clear_cache</item>
+<!--        <item>@string/setting_logout</item>-->
+    </string-array>
+
+
+    <string-array name="personal_info_list_myself">
+
+        <item>@string/personal_info_birthday</item>
+        <item>@string/personal_info_constellation</item>
+        <item>@string/personal_info_address</item>
+        <item>@string/personal_info_school</item>
+        <item>@string/personal_info_education</item>
+        <item>@string/personal_info_profession</item>
+        <item>@string/personal_info_company</item>
+
+    </string-array>
+
+    <string-array name="personal_info_list_other">
+
+        <item>@string/personal_info_birthday</item>
+        <item>@string/personal_info_language</item>
+        <item>@string/personal_info_constellation</item>
+        <item>@string/personal_info_address</item>
+        <item>@string/personal_info_school</item>
+        <item>@string/personal_info_education</item>
+        <item>@string/personal_info_profession</item>
+        <item>@string/personal_info_company</item>
+
+    </string-array>
+
+    <string-array name="personal_info_education_list">
+        <item>@string/personal_info_education_high_school</item>
+        <item>@string/personal_info_education_college</item>
+        <item>@string/personal_info_education_undergraduate</item>
+        <item>@string/personal_info_education_postgraduate</item>
+        <item>@string/personal_info_education_phd</item>
+    </string-array>
+
+
+    <!--分享-->
+    <string-array name="share_title">
+        <item>@string/share_face_book</item>
+        <item>@string/share_we_chat</item>
+        <item>@string/share_we_chat_circle</item>
+        <item>@string/share_qq</item>
+        <item>@string/share_wei_bo</item>
+        <item>@string/share_copy_url</item>
+    </string-array>
+
+    <string-array name="share_google_title">
+        <item>@string/share_copy_url</item>
+    </string-array>
+
+    <string-array name="share_foot_print">
+        <item>@string/share_face_book</item>
+        <item>@string/share_we_chat</item>
+        <item>@string/share_we_chat_circle</item>
+        <item>@string/share_qq</item>
+        <item>@string/share_wei_bo</item>
+    </string-array>
+
+    <!--分享 动态  国内-->
+
+    <string-array name="constellation_arrays">
+        <item>@string/constellation_0</item>
+        <item>@string/constellation_1</item>
+        <item>@string/constellation_2</item>
+        <item>@string/constellation_3</item>
+        <item>@string/constellation_4</item>
+        <item>@string/constellation_5</item>
+        <item>@string/constellation_6</item>
+        <item>@string/constellation_7</item>
+        <item>@string/constellation_8</item>
+        <item>@string/constellation_9</item>
+        <item>@string/constellation_10</item>
+        <item>@string/constellation_11</item>
+
+    </string-array>
+
+    <!--本地语言-->
+    <string-array name="local_language_code">
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>fr</item>
+        <item>es</item>
+        <item>vi</item>
+        <item>ar</item>
+        <item>uk</item>
+        <item>pt</item>
+        <item>id</item>
+
+    </string-array>
+
+
+
+    <string-array name="vip_code_title">
+
+        <item>@string/recharge_pay_type_vip_title_1</item>
+        <item>@string/recharge_pay_type_vip_title_3</item>
+        <item>@string/recharge_pay_type_vip_title_12</item>
+    </string-array>
+
+
+    <string-array name="drill_code_title">
+        <item>@string/recharge_pay_type_drill_title_100</item>
+        <item>@string/recharge_pay_type_drill_title_500</item>
+        <item>@string/recharge_pay_type_drill_title_1000</item>
+        <item>@string/recharge_pay_type_drill_title_2000</item>
+        <item>@string/recharge_pay_type_drill_title_5000</item>
+        <item>@string/recharge_pay_type_drill_title_10000</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="month">
+        <item>@string/wallet_recharge_record_1_month</item>
+        <item>@string/wallet_recharge_record_2_month</item>
+        <item>@string/wallet_recharge_record_3_month</item>
+        <item>@string/wallet_recharge_record_4_month</item>
+        <item>@string/wallet_recharge_record_5_month</item>
+        <item>@string/wallet_recharge_record_6_month</item>
+        <item>@string/wallet_recharge_record_7_month</item>
+        <item>@string/wallet_recharge_record_8_month</item>
+        <item>@string/wallet_recharge_record_9_month</item>
+        <item>@string/wallet_recharge_record_10_month</item>
+        <item>@string/wallet_recharge_record_11_month</item>
+        <item>@string/wallet_recharge_record_12_month</item>
+    </string-array>
+
+</resources>

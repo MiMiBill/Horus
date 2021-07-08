@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bg_update_dialog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_update_dialog_bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_default"
+            android:layout_marginBottom="@dimen/margin_default_s"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_find_new_version"
+                android:textColor="@color/text_dark"
+                android:textSize="@dimen/text_large_s" />
+
+            <TextView
+                android:id="@+id/tv_layout_update_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:text="v1.3.4"
+                android:textColor="@color/text_mid"
+                android:textSize="@dimen/text_default_m" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="22dp">
+
+            <TextView
+                android:id="@+id/btn_layout_update_now"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_common_height"
+                android:layout_marginTop="@dimen/margin_default_l"
+                android:layout_marginBottom="@dimen/margin_default_s"
+                android:background="@drawable/bg_button_update"
+                android:gravity="center"
+                android:minWidth="@dimen/update_button_min_width"
+                android:paddingStart="@dimen/margin_default"
+                android:paddingEnd="@dimen/margin_default"
+                android:text="@string/update_now"
+                android:textColor="@color/white"
+                android:textSize="@dimen/button_common_text_size" />
+
+            <TextView
+                android:id="@+id/tv_layout_update_progress_mask"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_common_height"
+                android:layout_alignEnd="@+id/btn_layout_update_now"
+                android:layout_marginTop="@dimen/margin_default_l"
+                android:layout_marginBottom="@dimen/margin_default_s"
+                android:background="@color/update_dialog_mask" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_layout_update_dialog_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="29dp"
+        android:src="@mipmap/bg_update_dialog_close" />
+
+</LinearLayout>

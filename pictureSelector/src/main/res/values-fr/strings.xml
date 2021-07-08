@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/tools" android:ignore="MissingTranslation,NamespaceTypo">
+    <string name="picture_camera_roll">Album</string>
+    <string name="picture_cancel">Annuler</string>
+    <string name="picture_preview">Aperçu</string>
+    <string name="gif_is_over_2M">Le fichier GIF ne peut pas dépasser 2 Mo</string>
+
+</resources>

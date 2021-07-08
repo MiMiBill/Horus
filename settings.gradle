@@ -1,0 +1,5 @@
+rootProject.name = "Horus"
+include ':app'
+include ':baselib'
+include ':pictureSelector'
+include ':ucrop'

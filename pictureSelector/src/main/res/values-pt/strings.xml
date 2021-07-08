@@ -1,0 +1,47 @@
+<resources>
+    <string name="picture_camera_roll">Filme da câmera</string>
+    <string name="picture_cancel">Cancelar-se</string>
+    <string name="picture_take_picture">Fotografia</string>
+    <string name="picture_rule">Não é possível selecionar  imagens e vídeos ao mesmo tempo</string>
+    <string name="picture_message_max_num">Pode selecionar até %1$d fotos</string>
+    <string name="picture_min_img_num">Necessário selecionar pelo menos %1$d fotos</string>
+    <string name="picture_min_video_num">Necessário selecionar pelo menos %1$d videos</string>
+    <string name="picture_message_video_max_num">Pode selecionar até %1$d vídeos.</string>
+    <string name="picture_preview">Visualizar-se</string>
+    <string name="picture_please">Por favor aguarde ...</string>
+    <string name="picture_done_front_num">Concluido %1$d/%2$d</string>
+    <string name="picture_completed">Concluido</string>
+    <string name="picture_done">Concluido</string>
+    <string name="picture_please_select">Por favor selecione</string>
+    <string name="picture_empty_title">Não há vídeos nem fotos\n</string>
+    <string name="picture_empty_audio_title">Nenhum arquivo de áudio\n</string>
+    <string name="picture_audio_empty">Podes gravar áudio com a gravação no sistema.</string>
+    <string name="picture_empty">Podes tirar uma foto ou um vídeo com sua câmera</string>
+    <string name="gif_tag">Vídeo</string>
+    <string name="picture_jurisdiction">Ler cartão de memória, permissão negada</string>
+    <string name="picture_camera">Obter permissão de câmera do sistema. Foi rejeitada.</string>
+    <string name="picture_audio">Obter permissão de gravação no sistema. Foi rejeitada.</string>
+    <string name="picture_video_toast">O vídeo não pode ser visualizado</string>
+    <string name="picture_record_video">Gravar vídeo</string>
+    <string name="picture_photograph">Tire uma foto</string>
+    <string name="picture_long_chart">Imagem longa</string>
+    <string name="picture_warning">Não há arquivos de mídia!</string>
+    <string name="picture_prompt">Dica</string>
+    <string name="picture_prompt_content">Salve a foto no seu telefone?</string>
+    <string name="picture_save_error">O Salvo da foto falhou</string>
+    <string name="picture_save_success">Fotos salvadas com sucesso para</string>
+    <string name="picture_all_audio">Todos os áudios</string>
+    <string name="picture_tape">Gravação</string>
+    <string name="picture_play_audio">Jogar</string>
+    <string name="picture_stop_audio">Terminar</string>
+    <string name="picture_quit_audio">Sair</string>
+    <string name="picture_pause_audio">Parar</string>
+    <string name="picture_error">A foto está corrompida</string>
+    <string name="picture_video_error">O vídeo está corrompido</string>
+    <string name="picture_audio_error">O áudio está corrompido</string>
+    <string name="picture_confirm">Confirmar</string>
+
+    <!-- 发布动态 -->
+    <string name="publish_selector_finish">Concluido (%1$d)</string>
+    <string name="gif_is_over_2M">Definir nova senha </string>
+</resources>

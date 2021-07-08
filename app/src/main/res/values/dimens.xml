@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 官方默认边距16dp，项目中常用12 -->
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_huge">32dp</dimen>
+
+    <dimen name="margin_large_l">30dp</dimen>
+    <dimen name="margin_default_l">20dp</dimen>
+    <dimen name="margin_default_l_s">18dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_me_top">12dp</dimen>
+    <dimen name="margin_default_s">12dp</dimen>
+    <dimen name="margin_default_s_l">14dp</dimen>
+    <dimen name="margin_small_l">10dp</dimen>
+    <dimen name="margin_small_m">9dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_s">6dp</dimen>
+    <dimen name="margin_mini_l">4dp</dimen>
+    <dimen name="margin_mini_m">3dp</dimen>
+    <dimen name="margin_mini">2dp</dimen>
+    <dimen name="margin_mini_s">1dp</dimen>
+    <!-- 官方默认字体14sp -->
+    <dimen name="text_large_n">25sp</dimen>
+    <dimen name="text_large_l">24sp</dimen>
+    <dimen name="text_navgitaion_title">19sp</dimen>
+    <dimen name="text_large_ll">22sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_large_m">19sp</dimen>
+    <dimen name="text_large_s">18sp</dimen>
+    <dimen name="text_default_n">17sp</dimen>
+    <dimen name="text_default_l">16sp</dimen>
+    <dimen name="text_default_m">15sp</dimen>
+    <dimen name="text_default">14sp</dimen>
+    <dimen name="text_default_r">13sp</dimen>
+    <dimen name="text_default_s">12sp</dimen>
+    <dimen name="text_small_l">10sp</dimen>
+    <dimen name="text_small">8sp</dimen>
+
+    <dimen name="corner_radius_default">5dp</dimen>
+    <dimen name="corner_radius_s">3dp</dimen>
+
+    <!-- 常用 -->
+    <dimen name="bottom_line_width">0.5dp</dimen>
+    <dimen name="list_divide_line_width">0.5dp</dimen>
+    <dimen name="button_common_width">296dp</dimen>
+    <dimen name="button_common_height">40dp</dimen>
+    <dimen name="button_common_corner">40dp</dimen>
+    <dimen name="button_common_text_size">15sp</dimen>
+    <dimen name="image_border_line_width">0.5dp</dimen>
+
+    <dimen name="text_15sp">15sp</dimen>
+    <dimen name="text_13sp">13sp</dimen>
+    <!-- Toolbar -->
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="toolbar_back_width">48dp</dimen>
+    <dimen name="toolbar_back_width_2">36dp</dimen>
+    <dimen name="toolbar_end_icon_width_2">44dp</dimen>
+    <dimen name="toolbar_title_text_size">18sp</dimen>
+    <dimen name="toolbar_right_text_size">15sp</dimen>
+
+    <!-- 底部导航栏 -->
+    <dimen name="tab_main_height">48dp</dimen>
+
+    <!-- 列表 通用 -->
+    <dimen name="empty_content_button_width">152dp</dimen>
+
+    <!-- SearchBar -->
+    <dimen name="search_bar_height">56dp</dimen>
+    <dimen name="search_bar_padding">12dp</dimen>
+    <dimen name="search_bar_corner">17dp</dimen>
+    <dimen name="search_bar_text_size">14sp</dimen>
+    <dimen name="search_bar_icon_padding_vertical">14dp</dimen>
+
+    <!-- 选择地区/语言 -->
+    <dimen name="first_select_button_width">234dp</dimen>
+    <dimen name="first_select_button_height">44dp</dimen>
+    <dimen name="first_select_button_corner">22dp</dimen>
+    <dimen name="first_select_button_between">24dp</dimen>
+    <dimen name="first_select_button_padding_end">20dp</dimen>
+    <dimen name="first_select_button_stroke_width">1dp</dimen>
+    <dimen name="first_select_next_margin_bottom">42dp</dimen>
+    <dimen name="first_select_text_size">18sp</dimen>
+    <dimen name="first_select_icon_width">50dp</dimen>
+    <dimen name="first_select_icon_max_width">22dp</dimen>
+    <dimen name="first_select_divide_line_height">24dp</dimen>
+    <dimen name="first_select_divide_line_width">2dp</dimen>
+
+    <!-- 选择地区 -->
+    <dimen name="region_item_height">42dp</dimen>
+    <dimen name="region_item_flag_size">28dp</dimen>
+    <dimen name="region_item_flag_padding_bottom">6dp</dimen>
+    <dimen name="region_item_flag_padding_end">10dp</dimen>
+    <dimen name="region_item_flag_padding_start">8dp</dimen>
+    <dimen name="region_item_text_padding_bottom">12dp</dimen>
+    <dimen name="region_item_code_padding_end">24dp</dimen>
+    <dimen name="region_item_line_padding_start">16dp</dimen>
+    <dimen name="region_item_line_padding_end">24dp</dimen>
+    <dimen name="region_item_head_padding_start">26dp</dimen>
+    <dimen name="region_slide_bar_width">32dp</dimen>
+    <!-- 选择语言 -->
+    <dimen name="language_item_height">42dp</dimen>
+    <dimen name="language_item_padding_start">12dp</dimen>
+    <dimen name="language_item_padding_bottom">10dp</dimen>
+    <dimen name="language_item_padding_top">20dp</dimen>
+
+    <!-- 登录注册 -->
+    <!-- 登录注册的主要控件尺寸和边距 -->
+    <dimen name="login_widget_width">@dimen/button_common_width</dimen>
+    <dimen name="login_button_height">42dp</dimen>
+    <dimen name="login_welcome_padding">10dp</dimen>
+    <dimen name="login_edit_padding">6dp</dimen>
+    <dimen name="login_input_pwd_margin_bottom">38dp</dimen>
+    <dimen name="login_input_phone_margin_bottom">10dp</dimen>
+    <dimen name="login_welcome_margin_bottom">88dp</dimen>
+    <dimen name="login_welcome_margin_bottom_two_line">60dp</dimen>
+    <dimen name="login_forget_padding">10dp</dimen>
+    <dimen name="login_welcome_large_text_size">30sp</dimen>
+    <dimen name="login_welcome_small_text_size">15sp</dimen>
+    <dimen name="login_button_text_size">18sp</dimen>
+    <dimen name="login_input_text_size">16sp</dimen>
+    <!-- 第三方登录 -->
+    <dimen name="login_third_top_height">24dp</dimen>
+    <dimen name="login_third_top_line_padding_inner">12dp</dimen>
+    <dimen name="login_third_top_line_padding_outer">32dp</dimen>
+    <dimen name="login_third_top_line_padding_top">8dp</dimen>
+    <dimen name="login_third_icon_size">60dp</dimen>
+    <dimen name="login_third_icon_size_new">45dp</dimen>
+    <dimen name="login_third_icon_padding_vertical">8dp</dimen>
+    <dimen name="login_third_icon_padding_horizontal">14dp</dimen>
+    <dimen name="login_third_bottom_height">34dp</dimen>
+    <!-- 注册 -->
+    <dimen name="register_one_input_margin_bottom">98dp</dimen>
+    <dimen name="register_one_input_height">36dp</dimen>
+    <dimen name="register_one_text_button_padding">8dp</dimen>
+    <dimen name="register_one_text_button_margin_top">18dp</dimen>
+    <dimen name="register_one_text_size">12sp</dimen>
+    <dimen name="register_one_code_text_size">16sp</dimen>
+    <dimen name="register_one_input_text_size">18sp</dimen>
+    <dimen name="register_two_toolbar_margin_bottom">36dp</dimen>
+    <dimen name="register_two_text_padding">8dp</dimen>
+    <dimen name="register_two_verify_code_height">48dp</dimen>
+    <dimen name="register_two_regain_code_padding">10dp</dimen>
+    <dimen name="register_input_height">38dp</dimen>
+    <dimen name="register_padding">8dp</dimen>
+    <dimen name="register_input_margin_bottom">100dp</dimen>
+    <dimen name="register_rule_margin_top">20dp</dimen>
+    <!-- 忘记密码 -->
+    <dimen name="forget_one_input_margin_bottom">98dp</dimen>
+    <dimen name="forget_input_padding">8dp</dimen>
+    <dimen name="forget_input_text_size">16sp</dimen>
+
+    <!-- 三方登录绑定 -->
+    <dimen name="bind_diamond_size">106dp</dimen>
+    <dimen name="bind_widget_width">@dimen/button_common_width</dimen>
+    <dimen name="bind_widget_height">32dp</dimen>
+    <dimen name="bind_widget_margin">22dp</dimen>
+    <dimen name="bind_tab_layout_width">200dp</dimen>
+    <dimen name="bind_tab_line_width">1dp</dimen>
+    <dimen name="bind_button_top_margin">68dp</dimen>
+    <dimen name="bind_gain_code_min_width">90dp</dimen>
+    <dimen name="bind_gain_code_bg_corner">4dp</dimen>
+
+    <!-- 完善个人信息 -->
+    <dimen name="complete_head_view_size">86dp</dimen>
+    <dimen name="complete_head_margin_top">20dp</dimen>
+    <dimen name="complete_head_button_height">30dp</dimen>
+    <dimen name="complete_head_button_corner">15dp</dimen>
+    <dimen name="complete_head_update_text_margin_bottom">24dp</dimen>
+    <dimen name="complete_head_update_text_size">12sp</dimen>
+    <dimen name="complete_widget_height">53dp</dimen>
+    <dimen name="complete_button_margin_top">38dp</dimen>
+
+    <!-- 寻缘（匹配） -->
+    <dimen name="match_card_top_margin">56dp</dimen>
+    <dimen name="match_card_edge_height">4dp</dimen>
+    <dimen name="match_card_icon_padding_vertical">20dp</dimen>
+    <dimen name="match_card_icon_padding_horizontal">12dp</dimen>
+    <dimen name="match_bottom_layout_height">98dp</dimen>
+    <dimen name="match_bottom_layout_padding_horizontal">18dp</dimen>
+    <dimen name="match_bottom_button_size_big">64dp</dimen>
+    <dimen name="match_bottom_button_size">54dp</dimen>
+    <dimen name="match_bottom_button_shadow_radius">4dp</dimen>
+    <!-- 匹配成功 -->
+    <dimen name="match_succeed_slogan_width">282dp</dimen>
+    <dimen name="match_succeed_head_layout_height">220dp</dimen>
+    <dimen name="match_succeed_head_overlay_width">36dp</dimen>
+    <dimen name="match_succeed_head_size">158dp</dimen>
+    <dimen name="match_succeed_head_border">2dp</dimen>
+    <dimen name="match_succeed_chat_margin_top">60dp</dimen>
+    <dimen name="match_succeed_chat_margin_bottom">24dp</dimen>
+    <dimen name="match_succeed_title_text_size">22sp</dimen>
+    <dimen name="match_succeed_title_margin_bottom">20dp</dimen>
+    <dimen name="match_succeed_end_tip_width">160dp</dimen>
+    <dimen name="match_succeed_end_tip_height">25dp</dimen>
+    <dimen name="match_succeed_end_tip_triangle_width">20dp</dimen>
+    <dimen name="match_succeed_end_tip_triangle_height">10dp</dimen>
+
+    <!-- 喜欢/被喜欢 -->
+    <dimen name="like_list_tab_line_width">2dp</dimen>
+    <dimen name="like_list_item_height">72dp</dimen>
+    <dimen name="like_list_item_head_size">44dp</dimen>
+    <dimen name="like_list_vip_header_padding_top">32dp</dimen>
+    <dimen name="like_list_vip_header_padding_bottom">22dp</dimen>
+    <dimen name="like_list_vip_header_button_width">100dp</dimen>
+    <dimen name="like_list_vip_header_button_height">38dp</dimen>
+    <dimen name="like_list_vip_corner">4dp</dimen>
+    <dimen name="like_list_vip_func_title_margin_top">24dp</dimen>
+    <dimen name="like_list_vip_item_head_size">76dp</dimen>
+
+    <!-- VIP购买弹窗 -->
+    <dimen name="dialog_open_vip_banner_height">200dp</dimen>
+    <dimen name="dialog_open_vip_price_height">100dp</dimen>
+    <dimen name="dialog_open_vip_or_height">24dp</dimen>
+    <dimen name="dialog_open_vip_price_text_size">28sp</dimen>
+    <dimen name="dialog_open_vip_button_width">200dp</dimen>
+    <dimen name="dialog_open_vip_button_height">40dp</dimen>
+    <dimen name="dialog_open_vip_corner">4dp</dimen>
+    <dimen name="dialog_open_vip_tip_height">18dp</dimen>
+    <dimen name="dialog_open_vip_tip_height_half">9dp</dimen>
+
+    <!-- 首页 -->
+    <dimen name="home_top_layout_height">100dp</dimen>
+    <dimen name="home_tab_layout_height">56dp</dimen>
+    <dimen name="home_more_selection_width">30dp</dimen>
+    <dimen name="home_like_next_padding">4dp</dimen>
+    <dimen name="home_item_head_corner">4dp</dimen>
+    <dimen name="home_item_flag_size">16dp</dimen>
+    <dimen name="home_popup_sex_height">42dp</dimen>
+    <dimen name="home_popup_sex_width">118dp</dimen>
+    <dimen name="home_like_me_head_size">44dp</dimen>
+    <dimen name="home_like_me_head_border">1dp</dimen>
+    <dimen name="home_content_center_margin_top">50dp</dimen>
+    <dimen name="home_content_vip_size">23dp</dimen>
+
+    <!-- 圈子 -->
+    <dimen name="circle_item_head_layout_height">80dp</dimen>
+    <dimen name="circle_item_num_layout_height">45dp</dimen>
+    <dimen name="circle_item_head_size">54dp</dimen>
+    <dimen name="circle_item_head_icon_offset">-4dp</dimen>
+    <dimen name="circle_item_comment_edit_corner">4dp</dimen>
+    <dimen name="circle_item_follow_corner">2dp</dimen>
+    <dimen name="circle_item_image_long_pic_corner">4dp</dimen>
+    <dimen name="circle_item_image_find_flag_size">32dp</dimen>
+    <dimen name="circle_item_image_find_flag_size_outside">16dp</dimen>
+    <dimen name="circle_item_video_mute_size">44dp</dimen>
+    <dimen name="circle_item_comment_time_width">76dp</dimen>
+    <dimen name="circle_comment_input_icon_height">48dp</dimen>
+    <dimen name="circle_comment_input_edit_min_height">32dp</dimen>
+    <!--消息-->
+    <dimen name="chat_pop_width">125dp</dimen>
+    <dimen name="chat_edge_margin">5dp</dimen>
+    <dimen name="chat_circle_notice_height">74dp</dimen>
+    <dimen name="chat_circle_notice_height_icon">54dp</dimen>
+    <dimen name="chat_circle_notice_height_space">10dp</dimen>
+    <dimen name="chat_unread_point_size">6dp</dimen>
+    <!-- 圈子详情（评论） -->
+    <dimen name="circle_comment_head_size">48dp</dimen>
+    <dimen name="circle_comment_flag_size">16dp</dimen>
+    <!-- 圈子消息列表 -->
+    <dimen name="circle_msg_item_head_size">52dp</dimen>
+    <dimen name="circle_msg_item_image_size">56dp</dimen>
+    <dimen name="circle_msg_item_content_min_height">28dp</dimen>
+    <dimen name="circle_msg_type_item_height">44dp</dimen>
+    <dimen name="circle_msg_anim_height">56dp</dimen>
+    <dimen name="circle_msg_anim_width">68dp</dimen>
+    <dimen name="circle_msg_type_item_image_width">36dp</dimen>
+
+    <!-- 发布动态 -->
+    <dimen name="publish_video_height">172dp</dimen>
+    <dimen name="publish_content_margin_bottom">56dp</dimen>
+    <dimen name="publish_widget_layout_height">36dp</dimen>
+    <dimen name="publish_dialog_selection_height">50dp</dimen>
+    <!-- 相册 -->
+    <dimen name="publish_selector_finish_radius">4dp</dimen>
+    <!-- 相机 -->
+    <dimen name="publish_camera_icon_margin">20dp</dimen>
+    <dimen name="publish_camera_icon_size">30dp</dimen>
+
+    <!--我的钱包-->
+    <dimen name="wallet_info_margin">17dp</dimen>
+    <dimen name="wallet_info_balance_margin">30dp</dimen>
+    <dimen name="wallet_info_balance_text">42sp</dimen>
+    <dimen name="wallet_info_income_text">22sp</dimen>
+    <dimen name="wallet_item_icon">27dp</dimen>
+    <dimen name="wallet_drill_balance_width">34dp</dimen>
+    <dimen name="wallet_drill_balance_height">31dp</dimen>
+    <dimen name="wallet_drill_income_width">17dp</dimen>
+    <dimen name="wallet_drill_income_height">15dp</dimen>
+    <dimen name="wallet_account_add_pending_left_right">25dp</dimen>
+    <dimen name="wallet_account_card_icon">24dp</dimen>
+
+    <!--今日收益-->
+    <dimen name="wallet_today_income_count_text">28sp</dimen>
+
+
+    <!-- 聊天/消息 -->
+    <dimen name="chat_search_corner">4dp</dimen>
+    <dimen name="chat_search_text_padding_start">40dp</dimen>
+    <dimen name="chat_conversation_head_size">53dp</dimen>
+    <dimen name="chat_conversation_head_margin_vertical">12dp</dimen>
+    <dimen name="chat_exposure_avatar_size">57dp</dimen>
+    <dimen name="chat_exposure_avatar_all_size">61dp</dimen>
+
+    <dimen name="chat_match_success_avatar_other_margin">39dp</dimen>
+    <dimen name="chat_match_success_avatar_size">47dp</dimen>
+    <dimen name="chat_match_success_avatar_all_size">51dp</dimen>
+    <!-- 聊天列表 -->
+    <dimen name="chat_single_line_height">42dp</dimen>
+    <dimen name="chat_top_height">44dp</dimen>
+    <dimen name="chat_top_back_width">34dp</dimen>
+    <dimen name="chat_top_head_width">34dp</dimen>
+    <!-- 聊天面板 -->
+    <dimen name="chat_message_item_panel_corner">16dp</dimen>
+    <dimen name="chat_message_item_text_src">16sp</dimen>
+    <dimen name="chat_message_item_text_dst">14sp</dimen>
+    <dimen name="chat_message_item_voice_dot">8dp</dimen>
+    <dimen name="chat_message_item_image_min_size">72dp</dimen>
+    <dimen name="chat_message_item_panel_padding_ss_small">8dp</dimen>
+    <dimen name="chat_message_item_panel_padding_small">16dp</dimen>
+    <dimen name="chat_message_item_panel_padding_large">36dp</dimen>
+    <dimen name="chat_message_item_panel_status_size">50dp</dimen>
+    <!-- 输入组件 -->
+    <dimen name="chat_input_corner">16dp</dimen>
+    <dimen name="chat_input_edit_text_min_height">32dp</dimen>
+    <dimen name="chat_input_icon_height">40dp</dimen>
+    <dimen name="chat_input_panel_default_height">200dp</dimen>
+    <!-- 聊天设置 -->
+    <dimen name="chat_setting_head">54dp</dimen>
+    <dimen name="chat_menu_divider">5dp</dimen>
+
+    <!-- 添加好友 -->
+    <dimen name="add_friend_widget_height">66dp</dimen>
+    <dimen name="add_friend_user_layout_height">86dp</dimen>
+    <dimen name="add_friend_user_head_size">54dp</dimen>
+    <dimen name="add_friend_user_status_stroke">1dp</dimen>
+    <dimen name="add_friend_user_status_corner">2dp</dimen>
+
+    <!--我的好友-->
+    <dimen name="my_friends_title_item_head_width">20dp</dimen>
+    <dimen name="my_friends_title_item_head_height">16dp</dimen>
+
+
+    <!--我的-->
+    <dimen name="me_price_drill_width">12dp</dimen>
+    <dimen name="me_price_drill_height">10dp</dimen>
+    <dimen name="me_head_avatar_size">82dp</dimen>
+    <dimen name="me_head_flag_size">22dp</dimen>
+    <dimen name="me_card_one_height">105dp</dimen>
+    <dimen name="me_card_one_margin_top">13dp</dimen>
+    <dimen name="me_card_two_margin">10dp</dimen>
+
+    <!--个人信息-->
+    <dimen name="personal_info_tab_height">50dp</dimen>
+
+    <dimen name="personal_info_user_interaction_size">70dp</dimen>
+    <!--个人信息第二版  头像 宽度/高度-->
+    <dimen name="personal_info_2_avatar_width_ratio_height">1</dimen>
+    <dimen name="personal_info_2_option_cancel_size">45dp</dimen>
+    <dimen name="personal_info_2_shadow_size">55dp</dimen>
+    <dimen name="personal_info_2_go_top_size">37dp</dimen>
+    <dimen name="personal_info_2_translate_size">56dp</dimen>
+    <dimen name="personal_info_2_drag_square_interval">1.5dp</dimen>
+
+    <!--邀请好友-->
+    <dimen name="invite_friend_invite_flow_index_size">20dp</dimen>
+
+    <!-- 视频通话 -->
+    <dimen name="video_call_head_size">131dp</dimen>
+    <dimen name="video_call_head_corner">4dp</dimen>
+    <dimen name="video_call_trans_padding">4dp</dimen>
+    <dimen name="video_call_trans_corner">12dp</dimen>
+    <dimen name="video_call_toast_corner">4dp</dimen>
+
+    <!-- 举报 -->
+    <dimen name="report_reason_corner">4dp</dimen>
+    <dimen name="report_reason_border">0.5dp</dimen>
+
+    <!-- 我的会员 -->
+    <dimen name="my_vip_card_no_text">66sp</dimen>
+    <dimen name="my_vip_card_yes_text">32sp</dimen>
+
+    <!-- 版本更新 -->
+    <dimen name="update_button_min_width">174dp</dimen>
+
+    <!-- FansListAdapter -->
+    <dimen name="simple_user_item_head_size">52dp</dimen>
+    <dimen name="simple_user_item_image_width">46dp</dimen>
+    <dimen name="simple_user_item_image_height">24dp</dimen>
+    <dimen name="simple_user_item_click_width">72dp</dimen>
+    <dimen name="simple_user_item_click_height">48dp</dimen>
+
+
+
+    <!-- 曝光购买页面 -->
+    <dimen name="chat_exposure_diamond_text">36sp</dimen>
+    <dimen name="chat_exposure_buy_height">44dp</dimen>
+    <dimen name="chat_exposure_buy_corner">22dp</dimen>
+    <dimen name="chat_exposure_avatar_border_width_blue">8dp</dimen>
+    <dimen name="chat_exposure_avatar_border_width_white">3.5dp</dimen>
+
+    <!--上传头像-->
+    <dimen name="upload_avatar_image_sample_width">85dp</dimen>
+    <dimen name="upload_avatar_image_sample_height">81dp</dimen>
+    <dimen name="upload_avatar_image_sample_margin_bottom">37dp</dimen>
+
+    <!--注销账号-->
+    <dimen name="logout_button_height">48dp</dimen>
+    <dimen name="logout_button_margin_top">5dp</dimen>
+    <dimen name="logout_button_padding_top">17dp</dimen>
+    <dimen name="logout_reason_prompt_margin_start">12dp</dimen>
+    <dimen name="logout_reason_prompt_margin_top">33dp</dimen>
+    <dimen name="logout_reason_prompt_margin_bottom">17dp</dimen>
+    <dimen name="logout_reason_item_margin_horizontal">8dp</dimen>
+    <dimen name="logout_reason_item_margin_start">11dp</dimen>
+    <dimen name="logout_reason_item_margin_end">17dp</dimen>
+    <dimen name="logout_reason_item_margin_top">20dp</dimen>
+    <dimen name="logout_reason_item_padding_horizontal">2dp</dimen>
+    <dimen name="logout_reason_item_padding_vertical">12dp</dimen>
+    <dimen name="logout_reason_item_text">14sp</dimen>
+
+    <dimen name="logout_nextstep_margin_top">44dp</dimen>
+    <dimen name="logout_nextstep_margin_start">31dp</dimen>
+    <dimen name="logout_nextstep_margin_end">31dp</dimen>
+
+    <dimen name="logout_reason_item_radius">10dp</dimen>
+    <dimen name="logout_nextstep_button_radius">100dp</dimen>
+    <dimen name="logout_nextstep_button_padding_top">14dp</dimen>
+    <dimen name="logout_content_lineSpacingExtra">15dp</dimen>
+    <dimen name="logout_clause_item_margin_start">18dp</dimen>
+    <dimen name="logout_clause_item_margin_top">22dp</dimen>
+    <dimen name="logout_clause_item_margin_end">18dp</dimen>
+    <dimen name="logout_clause_item_margin_vertical">20dp</dimen>
+
+    <dimen name="logout_clause_havaread_image_margin_start">48dp</dimen>
+    <dimen name="logout_clause_havaread_image_margin_top">64dp</dimen>
+    <dimen name="logout_clause_haveread_text_margin_start">9dp</dimen>
+
+    <dimen name="logout_clause_confirm_application_margin_horizontal">31dp</dimen>
+    <dimen name="logout_clause_confirm_application_margin_top">31dp</dimen>
+    <dimen name="logout_clause_confirm_application_padding_vertical">14dp</dimen>
+    <dimen name="width_14dp">14dp</dimen>
+
+</resources>

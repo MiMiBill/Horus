@@ -1,0 +1,47 @@
+<resources>
+    <string name="picture_camera_roll">Галерея камери</string>
+    <string name="picture_cancel">Скасувати</string>
+    <string name="picture_take_picture">Зробити знімок</string>
+    <string name="picture_rule">Неможливо одночасно вибирати фотографію або відео</string>
+    <string name="picture_message_max_num">Можна обрати не більш ніж %1$d фотографій</string>
+    <string name="picture_min_img_num">Необхідно обрати не менш ніж %1$d фотографій</string>
+    <string name="picture_min_video_num">Необхідно обрати не менш ніж %1$d відео</string>
+    <string name="picture_message_video_max_num">Можна обрати не більш ніж %1$d відео</string>
+    <string name="picture_preview">Поперед. перегляд</string>
+    <string name="picture_please">Будь ласка, зачекайте...</string>
+    <string name="picture_done_front_num">%1$d/%2$d завершено</string>
+    <string name="picture_completed">Завершено</string>
+    <string name="picture_done">Завершено</string>
+    <string name="picture_please_select">Оберіть</string>
+    <string name="picture_empty_title">Немає фотографій або відео\n</string>
+    <string name="picture_empty_audio_title">Немає звукових файлів\n</string>
+    <string name="picture_audio_empty">Ви можете записати звуковий файл за допомогою системного диктофону</string>
+    <string name="picture_empty">Ви можете зробити фотографію чи відео за допомогою камери</string>
+    <string name="gif_tag">Анімована картинка</string>
+    <string name="picture_jurisdiction">В доступі зчитування з внутрішньої пам\'яті відмовлено</string>
+    <string name="picture_camera">В доступі до системної камери відмовлено</string>
+    <string name="picture_audio">В доступі до системного диктофону відмовлено</string>
+    <string name="picture_video_toast">Попередній перегляд відео недоступний</string>
+    <string name="picture_record_video">Записати відео</string>
+    <string name="picture_photograph">Зробити знімок</string>
+    <string name="picture_long_chart">Довгий скріншот</string>
+    <string name="picture_warning">Наразі немає мультимедіа файлів!</string>
+    <string name="picture_prompt">Нагадування</string>
+    <string name="picture_prompt_content">Зберегти картинку на телефон?</string>
+    <string name="picture_save_error">Не вдалося зберегти картинку</string>
+    <string name="picture_save_success">Картинку збережено на</string>
+    <string name="picture_all_audio">Усі звукові файли</string>
+    <string name="picture_tape">Запис</string>
+    <string name="picture_play_audio">Програвання</string>
+    <string name="picture_stop_audio">Стоп</string>
+    <string name="picture_quit_audio">Вихід</string>
+    <string name="picture_pause_audio">Пауза</string>
+    <string name="picture_error">Картинка пошкоджена</string>
+    <string name="picture_video_error">Відео пошкоджено</string>
+    <string name="picture_audio_error">Звукозапис пошкоджено</string>
+    <string name="picture_confirm">Підтвердити</string>
+
+    <!-- 发布动态 -->
+    <string name="publish_selector_finish">Завершено (%1$d)</string>
+    <string name="gif_is_over_2M">Файл Gif не може перевищувати 2М</string>
+</resources>

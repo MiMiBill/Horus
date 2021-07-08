@@ -1,0 +1,142 @@
+[
+  {
+    "code": -1,
+    "info": "System error"
+  },
+  {
+    "code": -2,
+    "info": "No login"
+  },
+  {
+    "code": 9,
+    "info": "The user has been temporarily banned due to violations！"
+  },
+  {
+    "code": 99,
+    "info": "The user has been permanently banned due to violations！"
+  },
+  {
+    "code": 101,
+    "info": "The platform name does not exist"
+  },
+  {
+    "code": 102,
+    "info": "Account does not exist"
+  },
+  {
+    "code": 103,
+    "info": "Account already exists"
+  },
+  {
+    "code": 104,
+    "info": "SMS failed to send"
+  },
+  {
+    "code": 105,
+    "info": "SMS has been sent"
+  },
+  {
+    "code": 106,
+    "info": "Verification code is empty"
+  },
+  {
+    "code": 107,
+    "info": "The verification code is incorrect"
+  },
+  {
+    "code": 108,
+    "info": "The account number or password is incorrect"
+  },
+  {
+    "code": 109,
+    "info": "Account already exists"
+  },
+  {
+    "code": 110,
+    "info": "Insufficient balance"
+  },
+  {
+    "code": 111,
+    "info": "Friend already exists"
+  },
+  {
+    "code": 112,
+    "info": "The data is not perfect"
+  },
+  {
+    "code": 113,
+    "info": "The phone number already exists"
+  },
+  {
+    "code": 114,
+    "info": "The phone number is already bound"
+  },
+  {
+    "code": 115,
+    "info": "Mailbox number is already bound"
+  },
+  {
+    "code": 116,
+    "info": "The status value is empty"
+  },
+  {
+    "code": 117,
+    "info": "The password is incorrect"
+  },
+  {
+    "code": 118,
+    "info": "Invitation code error"
+  },
+  {
+    "code": 119,
+    "info": "The invitation code has been filled out"
+  },
+  {
+    "code": 120,
+    "info": "Insufficient balance"
+  },
+  {
+    "code": 121,
+    "info": "Limit 1 invitation code for each mobile"
+  },
+  {
+    "code":122,
+    "info":"It was deleted"
+  },
+  {
+    "code":126,
+    "info":"No password is set for the account"
+  },
+  {
+    "code": 127,
+    "info": "Verification code has expired"
+  },
+  {
+    "code":11,
+    "info":"该用户已注销账号"
+  },
+  {
+    "code": 131,
+    "info": "发送礼物失败"
+  },
+  {
+    "code": 132,
+    "info": "余额不足"
+  },
+  {
+    "code": 133,
+    "info": "视频通话已经结束"
+  },
+  {
+    "code": 134,
+    "info": "视频通话未开始"
+  },
+  {
+    "code": 141,
+    "info": "Failed, you were blacklisted"
+  },
+  {
+    "code": 142,
+    "info": "用户正常状态，不可申述"
+  }
+]
