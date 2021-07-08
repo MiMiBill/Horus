@@ -147,7 +147,7 @@ public class Constant {
     /**
      * 腾讯Bugly的APP_ID
      */
-    public static final String BUGLY_APP_ID = "caa8382e60";
+    public static final String BUGLY_APP_ID = "179380009e";
 
 
     /**

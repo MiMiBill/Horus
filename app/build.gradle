@@ -16,12 +16,55 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    buildTypes {
+    signingConfigs {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            storeFile file('longyun.jks')
+            storePassword "longyun123"
+            keyAlias "longyun"
+            keyPassword "longyun123"
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
     }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+
+//            if (!isJiaGu) {
+//                buildConfigField "String", "BURIED_POINT_CHANNEL", '\"\"'
+//                buildConfigField "String", "MARKET", '\"\"'
+//
+//                buildConfigField "boolean", "GOOGLE_PLAY", 'false'
+//            }
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ndk {
+                //融云IMLib支持'armeabi','armeabi-v7a','arm64-v8a',"x86"
+                //声网视频SDK支持'armeabi-v7a','arm64-v8a',"x86"
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+            }
+
+        }
+        release {
+            minifyEnabled true
+            signingConfig signingConfigs.release
+//            if (!isJiaGu) {
+//                buildConfigField "String", "BURIED_POINT_CHANNEL", '\"\"'
+//                buildConfigField "String", "MARKET", '\"\"'
+//
+//                buildConfigField "boolean", "GOOGLE_PLAY", 'false'
+//            }
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            ndk {
+                //融云IMLib支持'armeabi','armeabi-v7a','arm64-v8a',"x86"
+                //声网视频SDK支持'armeabi-v7a','arm64-v8a',"x86"
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+            }
+        }
+    }
+
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

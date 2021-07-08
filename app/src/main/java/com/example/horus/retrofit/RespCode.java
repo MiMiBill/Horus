@@ -1,4 +1,4 @@
-package com.example.horus.mvp;
+package com.example.horus.retrofit;
 
 import android.content.Context;
 import android.util.SparseArray;
@@ -8,7 +8,6 @@ import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.example.horus.R;
 import com.example.horus.app.MyApp;
-
 
 import java.io.BufferedReader;
 import java.io.IOException;
